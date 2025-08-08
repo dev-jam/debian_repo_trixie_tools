@@ -137,38 +137,103 @@ Description: pdfgui_tools is a user interface tool developed in Qt
  Additionally, in the near future, more functions with additional
  features will be added.
 
+Package: python3-betteradbsync
+Version: 0:1.4.0-2~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 135
+Depends: python3:any
+Filename: ./python3-betteradbsync_1.4.0-2~w2d0_all.deb
+Size: 19052
+MD5sum: 01d59c53b8d92d8198834af43f1db3df
+SHA1: 900fe240a3d7a198740d8af2c483be19e07a3260
+SHA256: 51bb81141a71e158bec5c6485538e9ad7fdb3e14e960b2316bd0c81411697364
+Section: python
+Priority: optional
+Description: Better version of adb-sync for Python3
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-dirsync
-Version: 0:2.2.6-1~w2d0
+Version: 0:2.2.6-2~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 62
 Depends: python3:any
-Filename: ./python3-dirsync_2.2.6-1~w2d0_all.deb
+Filename: ./python3-dirsync_2.2.6-2~w2d0_all.deb
 Size: 11304
-MD5sum: ac78530658bca5d21724b3237846e8f5
-SHA1: 6edfd824fc495f6737e160a24a2b9efa293a8826
-SHA256: 6d54a64e950996155a54790e2369760df3039aa462181710c200ab8d66e0a58d
+MD5sum: 46912c4851c447b50a2526d1a21741bb
+SHA1: 04815180cf92ae5f7cc0abe9187735c77c901c9e
+SHA256: 30bd25d32627778f1c94c619ddeb34624b3e313e68795631dad3f6a6448dbb85
 Section: python
 Priority: optional
 Homepage: https://github.com/tkhyn/dirsync/
 Description: Advanced directory tree synchronisation tool
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-freesimplegui
+Version: 0:5.2.0.post1-2~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 2140
+Depends: python3 (>= 3.7~), python3:any
+Filename: ./python3-freesimplegui_5.2.0.post1-2~w2d0_all.deb
+Size: 608808
+MD5sum: 452d0903a983300e5e8c2576647df74b
+SHA1: c5d18988008654b3cbde3b8eba0f14f7123bd7c5
+SHA256: 4ffe621968d7c5256d5027229324365a0a9155cd589b1ce5f1459afefdbeec2b
+Section: python
+Priority: optional
+Description: The free-forever Python GUI framework.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-ps-mem
-Version: 0:3.14-1~w2d0
+Version: 0:3.14-2~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 99
 Depends: python3:any
-Filename: ./python3-ps-mem_3.14-1~w2d0_all.deb
+Filename: ./python3-ps-mem_3.14-2~w2d0_all.deb
 Size: 19724
-MD5sum: 48d4d479faa51af5cbc80c503a589092
-SHA1: b6eb9a4f1efb243a015212177646923bf243c775
-SHA256: f6a53c840e6d7defd41947c87e8bd78b29220a45c2c986c98ceb8e14be843346
+MD5sum: c230cdbb977fb731a49af8fd2f553f10
+SHA1: 1f6babe6f8ca3248b97c1f8b9e5ae777b74f026d
+SHA256: 4a8925b76c313ac6f930f26182effd4efffcbe1d488f01c6ef33dd423e7bc6b9
 Section: python
 Priority: optional
 Homepage: http://github.com/pixelb/ps_mem
 Description: A utility to report core memory usage per program
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-repolib
+Version: 0:1.5.1-2~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 227
+Depends: python3:any
+Filename: ./python3-repolib_1.5.1-2~w2d0_all.deb
+Size: 40376
+MD5sum: 660cb4121e05b01f7f3c3ac78e3ea8ab
+SHA1: 2e55a1a9643db0e33a04c7f7c03e782d130b69f5
+SHA256: 619b3a327134be3895ab832886b1a32a2b2c144fd2ea9202b38fecccdd697ce8
+Section: python
+Priority: optional
+Homepage: https://github.com/pop-os/repolib
+Description: Easily manage software sources
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-rtcqs
+Version: 0:0.6.7-2~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 79
+Depends: python3-freesimplegui, python3:any
+Filename: ./python3-rtcqs_0.6.7-2~w2d0_all.deb
+Size: 23700
+MD5sum: a684dded542c36497639662532b669e0
+SHA1: 002ba7467bad4d20365235975f7a842c647f75a4
+SHA256: 027316dbb06c6a7dcd81f1143d657fe1f59f0a7c4969339b019eae14ed728cb0
+Section: python
+Priority: optional
+Description: Linux audio performance analyzer
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: wheel2deb
