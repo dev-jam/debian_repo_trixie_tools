@@ -27,6 +27,26 @@ Description: system tray notifications for Thunderbird
  possibly by the time you read these words.
 Original-Maintainer: Adam Borowski <kilobyte@angband.pl>
 
+Package: fastfetch
+Version: 2.50.2+dfsg-1~bpo13+1
+Architecture: amd64
+Maintainer: Hiago De Franco <hiagofranco@gmail.com>
+Installed-Size: 1879
+Depends: libc6 (>= 2.38), libyyjson0 (>= 0.10.0+ds)
+Filename: ./fastfetch_2.50.2+dfsg-1~bpo13+1_amd64.deb
+Size: 565784
+MD5sum: 780819e12339fb5d1c1e8197089eb3c6
+SHA1: c03b9094b6f775da3d3c7adfa6d2b160d6b54b32
+SHA256: 518a36c32385ea8b60e6bd63c182bf36c69fb433eceab249f17bf44690cee259
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/fastfetch-cli/fastfetch
+Description: neofetch-like tool for fetching system information
+ Fastfetch is a neofetch-like tool for fetching system information and
+ displaying them in a pretty way. It is written mainly in C, with
+ performance and customizability in mind.
+
 Package: kde-servicemenu-reimage
 Version: 2.6.4
 Architecture: amd64
