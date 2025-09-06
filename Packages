@@ -756,3 +756,25 @@ Homepage: https://github.com/upciti/wheel2deb
 Description: Python wheel to debian package converter
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: win32-loader
+Version: 0.10.6~bpo13+1
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 552
+Suggests: wine
+Built-Using: grub2 (= 2.12-9)
+Filename: ./win32-loader_0.10.6~bpo13+1_all.deb
+Size: 483792
+MD5sum: 5a5e049cffd748bc24162cf1d064ccee
+SHA1: 3afd7dbb28fdd98293a7a9e57b498f75949ddf5a
+SHA256: 0d7a286ead7f031191835cf15716cb187836603d493a65d48c34d0c7dbf8b41d
+Section: utils
+Priority: optional
+Description: Debian-Installer loader for win32
+ This package provides a win32 program that can be used as a loader for
+ Debian Installer, acting as a more user-friendly boot mechanism than
+ traditional BIOS-based boot.
+ .
+ This package contains the cdrom/usb-disk add-on that starts a media-based
+ install.
+
