@@ -1,3 +1,52 @@
+Package: audacity
+Version: 3.7.5+dfsg-2~bpo13+1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 30733
+Depends: audacity-data (= 3.7.5+dfsg-2~bpo13+1), libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libexpat1 (>= 2.0.1), libflac++11 (>= 1.5.0), libflac14 (>= 1.5.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0t64 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0t64 (>= 0.1~svn20101010), libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 14), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3t64 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1t64 (>= 3.2.8+dfsg), libwxgtk3.2-1t64 (>= 3.2.8+dfsg)
+Suggests: ladspa-plugin
+Filename: ./audacity_3.7.5+dfsg-2~bpo13+1_amd64.deb
+Size: 8181844
+MD5sum: 0b6e54f754c5a8e08b3b4957a00c053b
+SHA1: 3d42fa7d74a760651eda7c9a97465cf0d4aa6cba
+SHA256: 4be558c795b3b1cee8533b4e5f0dfe6163b4a2a3571c5e91bbecfa779ee7a97d
+Section: sound
+Priority: optional
+Homepage: https://www.audacityteam.org/
+Description: fast, cross-platform audio editor
+ Audacity is a multi-track audio editor for Linux/Unix, MacOS and
+ Windows.  It is designed for easy recording, playing and editing of
+ digital audio.  Audacity features digital effects and spectrum
+ analysis tools.  Editing is very fast and provides unlimited
+ undo/redo.
+ .
+ Supported file formats include Ogg Vorbis, MP2, MP3, WAV, AIFF, and AU.
+
+Package: audacity-data
+Source: audacity
+Version: 3.7.5+dfsg-2~bpo13+1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 15819
+Recommends: audacity
+Filename: ./audacity-data_3.7.5+dfsg-2~bpo13+1_all.deb
+Size: 2468932
+MD5sum: 47b18141fe35583cdb7d13b7021226be
+SHA1: 2f8c675c3cff44e5961a431a2d9c301b93d8a239
+SHA256: 8b66c271c585f79dc44025a7f74d5f6e6d7a22fa520810fdf9836b34bfd46b23
+Section: sound
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.audacityteam.org/
+Description: fast, cross-platform audio editor (data)
+ Audacity is a multi-track audio editor for Linux/Unix, MacOS and
+ Windows.  It is designed for easy recording, playing and editing of
+ digital audio.  Audacity features digital effects and spectrum
+ analysis tools.  Editing is very fast and provides unlimited
+ undo/redo.
+ .
+ This package contains the architecture-independent data files.
+
 Package: birdtray
 Version: 1.11.0+ds-0.1~bsr
 Architecture: amd64
@@ -640,6 +689,59 @@ Description: pdfgui_tools is a user interface tool developed in Qt
  Additionally, in the near future, more functions with additional
  features will be added.
 
+Package: praat
+Version: 6.4.44.a+dfsg-1~bpo13+1
+Architecture: amd64
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 108949
+Depends: file, oss-compat, libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 14)
+Suggests: libasound2-plugins
+Filename: ./praat_6.4.44.a+dfsg-1~bpo13+1_amd64.deb
+Size: 29458988
+MD5sum: 39f7fb9c9845a0645e36c53a61693bb4
+SHA1: 2035ea4d3535049921c2b45028ddd07a6de20948
+SHA256: 9e8e75cfca4d70601ad7451a306d6c402192082809c6c0237ef5c64898251924
+Section: science
+Priority: optional
+Homepage: https://www.praat.org
+Description: program for speech analysis and synthesis
+ According to its authors, praat is "doing phonetics by computer".  Through
+ its graphical interface, several speech analysis functionalities are
+ available: spectrograms, cochleograms, and pitch and formant
+ extraction.  Articulatory synthesis, as well as synthesis from pitch,
+ formant, and intensity are also available.  Other features are
+ segmentation, labelling using the phonetic alphabet, and computation of
+ statistics.  Praat is configurable and extensible through its own scripting
+ language and has provisions for communicating with other programs.
+
+Package: praat-doc
+Source: praat
+Version: 6.4.44.a+dfsg-1~bpo13+1
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 26381
+Filename: ./praat-doc_6.4.44.a+dfsg-1~bpo13+1_all.deb
+Size: 15577324
+MD5sum: dc8c8d71a71b883510b71ace852a0760
+SHA1: 45e79c39198dd90af680d54494d330f453005421
+SHA256: cc87bc3f4723e325d2cf1c19ca36a663704e22ef5870f1ebd6349494a1f58bc1
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.praat.org
+Description: program for speech analysis and synthesis (documentation)
+ According to its authors, praat is "doing phonetics by computer".  Through
+ its graphical interface, several speech analysis functionalities are
+ available: spectrograms, cochleograms, and pitch and formant
+ extraction.  Articulatory synthesis, as well as synthesis from pitch,
+ formant, and intensity are also available.  Other features are
+ segmentation, labelling using the phonetic alphabet, and computation of
+ statistics.  Praat is configurable and extensible through its own scripting
+ language and has provisions for communicating with other programs.
+ .
+ This package provides the HTML form of documentation for Praat
+ (essentially a local copy of the website at praat.org).
+
 Package: python3-betteradbsync
 Version: 0:1.4.0-2~w2d0
 Architecture: all
@@ -738,6 +840,28 @@ Section: python
 Priority: optional
 Description: Linux audio performance analyzer
  This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: s-tui
+Version: 1.2.0-1~bpo13+1
+Architecture: all
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 167
+Depends: python3-psutil, python3-urwid, python3:any
+Suggests: stress-ng | stress
+Filename: ./s-tui_1.2.0-1~bpo13+1_all.deb
+Size: 34328
+MD5sum: 80983d4c5df5418dab05f19a82d792c5
+SHA1: 49ac5ac5f397963469273e4b5f5556e0ab4c435e
+SHA256: 1335c92a2b7ee0b3ae424ec7b33fe2858662e9ae77c0e880f5a0452503de87c8
+Section: utils
+Priority: optional
+Homepage: https://github.com/amanusk/s-tui
+Description: terminal UI for monitoring your computer
+ s-tui allows monitoring of CPU temperature, frequency,
+ power and utilization in a graphical way from the terminal.
+ .
+ It requires no X server and has built-in integration with
+ stress/stress-ng.
 
 Package: wheel2deb
 Version: 0:0.9.5+bsr-1~w2d0
