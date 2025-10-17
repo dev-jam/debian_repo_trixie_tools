@@ -903,18 +903,18 @@ Description: Debian-Installer loader for win32
  install.
 
 Package: yt-dlp
-Version: 2025.09.26-1~bpo13+1
+Version: 2025.10.14-1~bpo13+1
 Architecture: all
 Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 10989
+Installed-Size: 11016
 Depends: python3-certifi, python3-mutagen, python3-pycryptodome, python3-requests, python3-urllib3, python3-websockets, python3:any
 Recommends: aria2 | wget | curl, ca-certificates, ffmpeg
 Suggests: libfribidi-bin | bidiv, phantomjs
-Filename: ./yt-dlp_2025.09.26-1~bpo13+1_all.deb
-Size: 2086972
-MD5sum: a9fd32ee6783a192f006deef45453b2b
-SHA1: 4030bc2b9496211b13b193c055d9a220bce57168
-SHA256: 0792a62331ace1e9609bd7c48fb6b83aa860e8431422242548a7ef9d21df1c75
+Filename: ./yt-dlp_2025.10.14-1~bpo13+1_all.deb
+Size: 2091888
+MD5sum: 1e0ff47ca2b60f1190bbbdb10c412dc4
+SHA1: 939da59b33f952160c23968d1135df8f05bcfe45
+SHA256: 5a0fb6ebb0b1f04578c50959cbb6a9f0fd35a82251e5e0e6c32fe87ee6e1c605
 Section: web
 Priority: optional
 Homepage: https://github.com/yt-dlp/yt-dlp
@@ -1014,9 +1014,10 @@ Description: downloader of videos from YouTube and other sites
  HollywoodReporterPlaylist, Holodex, HotNewHipHop, hotstar, hrfernsehen,
  HRTi, HRTiPlaylist, HSEProduct, HSEShow, html5, Huajiao, HuffPost,
  Hungama, HungamaAlbumPlaylist, HungamaSong, Hypem, Hytale, Icareus,
- IdolPlus, IflixSeries, ign.com, IGNArticle, IGNVideo, iheartradio,
- IlPost, Iltalehti, imdb, Imgur, Ina, Inc, IndavideoEmbed, InfoQ,
- Instagram, InstagramIOS, Internazionale, InternetVideoArchive,
+ IdagioAlbum, IdagioPersonalPlaylist, IdagioPlaylist, IdagioRecording,
+ IdagioTrack, IdolPlus, IflixSeries, ign.com, IGNArticle, IGNVideo,
+ iheartradio, IlPost, Iltalehti, imdb, Imgur, Ina, Inc, IndavideoEmbed,
+ InfoQ, Instagram, InstagramIOS, Internazionale, InternetVideoArchive,
  InvestigationDiscovery, IPrima, IPrimaCNN, iq.com, iqiyi, IslamChannel,
  IslamChannelSeries, IsraelNationalNews, ITProTV, ITProTVCourse,
  ITV, ITVBTCC, ivi, ivideon, Ivoox, IVXPlayer, iwara, Ixigua,
