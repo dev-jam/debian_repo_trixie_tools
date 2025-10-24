@@ -94,6 +94,94 @@ Description: Converter from CloneCD disc image format to standard ISO
  This converts CD backup files created using the non-free CloneCD program to a
  format understood by most Free Software CD writing programs.
 
+Package: digikam
+Version: 4:8.8.0-1~bpo13+1
+Architecture: amd64
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 302
+Depends: digikam-private-libs (= 4:8.8.0-1~bpo13+1), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libmagick++-7.q16-5 (>= 8:7.1.1.21), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), perl:any, libqt6sql6-sqlite, libqt6sql6-mysql, digikam-data (= 4:8.8.0-1~bpo13+1)
+Recommends: www-browser, ffmpegthumbs
+Suggests: libimage-exiftool-perl, breeze-icon-theme, systemsettings
+Filename: ./digikam_8.8.0-1~bpo13+1_amd64.deb
+Size: 94236
+MD5sum: 92761ea0d12701feec8c9a0966be860f
+SHA1: b1255069380bf93e9a24d220afbfedab96eb9f35
+SHA256: e6448c1f4faaeabd8e673d8c3ecfa7acb852d2992c50f45275748b7b498b1a8f
+Section: graphics
+Priority: optional
+Homepage: http://www.digikam.org
+Description: digital photo management application for KDE
+ Digital photo management program designed to import, organize, enhance, search
+ and export your digital images to and from your computer.
+ .
+ It provides a simple interface which makes importing and organizing digital
+ photographs a "snap". digiKam enables you to manage large numbers of
+ digital photographs in albums and to organize these photographs for easy
+ retrieval using tags (keywords), captions, collections, dates, geolocation
+ and searches. It has many features for viewing, organizing, processing and
+ sharing your images. Thus, digiKam is a formidable digital asset management
+ (DAM) software including powerful image editing functions.
+ .
+ An easy-to-use camera interface is provided, that will connect to your
+ digital camera and download photographs directly into digiKam albums.
+ More than 1000 digital cameras are supported by the gphoto2 library.
+ Of course, any media or card reader supported by your operating system
+ will interface with digiKam.
+ .
+ digiKam incorporates a fast Image Editor with many image editing tools.
+ You can use the Image Editor to view your photographs, comment and rate
+ them, correct, enhance and alter them. The editing power can be easily
+ extended by a set of plugins, the KDE Image Plugins Interface (manual)
+ .
+ While digiKam remains easy to use, it provides professional level features
+ by the dozens. It is fully 16 bit enabled including all available plugins,
+ supports RAW format conversion through libraw, DNG export and ICC color
+ management work flow.
+
+Package: digikam-data
+Source: digikam
+Version: 4:8.8.0-1~bpo13+1
+Architecture: all
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 61399
+Depends: opencv-data
+Filename: ./digikam-data_8.8.0-1~bpo13+1_all.deb
+Size: 16732480
+MD5sum: ebf5f52dfab3f73c5389b231a9ac5308
+SHA1: 8eb3703946d398fc2f74800665f6e700050e198f
+SHA256: ff368823515a7315a80a1c8e88427a1212374f0f091c983623cec9e2f1c31c8e
+Section: graphics
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.digikam.org
+Description: digiKam architecture-independant data
+ Contains the significant amount of architecture-independent data that is
+ shipped with digiKam.
+ .
+ It has been placed in an architecture all file to reduce space on the
+ archives, rather than one copy for each architecture.
+
+Package: digikam-private-libs
+Source: digikam
+Version: 4:8.8.0-1~bpo13+1
+Architecture: amd64
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 55316
+Depends: kio6, libavcodec61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.0), libc6 (>= 2.38), libexiv2-28 (>= 0.28.0), libexpat1 (>= 2.0.1), libgcc-s1 (>= 12), libglib2.0-0t64 (>= 2.24.0), libgomp1 (>= 6), libgphoto2-6t64 (>= 2.5.10), libgphoto2-port12t64 (>= 2.5.10), libheif1 (>= 1.13.0), libjpeg62-turbo (>= 1.3.1), libjxl0.11 (>= 0.7.0), libkf6calendarcore6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6filemetadata3 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6notifyconfig6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.0.0), libkf6sonnetui6 (>= 6.0.0), libkf6threadweaver6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6xmlgui6 (>= 6.13.0), liblcms2-2 (>= 2.2+git20110628), liblensfun1 (>= 0.3.4), libmagick++-7.q16-5 (>= 8:7.1.1.21), libmagickcore-7.q16-10 (>= 8:7.1.1.21), libopencv-core410 (>= 4.10.0+dfsg), libopencv-dnn410 (>= 4.10.0+dfsg), libopencv-imgcodecs410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libopencv-ml410 (>= 4.10.0+dfsg), libopencv-objdetect410 (>= 4.10.0+dfsg), libopengl0, libpng16-16t64 (>= 1.6.46), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6multimedia6 (>= 6.6.1), libqt6multimediawidgets6 (>= 6.6.1), libqt6network6 (>= 6.7.2), libqt6networkauth6 (>= 6.6.1), libqt6opengl6 (>= 6.1.2), libqt6openglwidgets6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6statemachine6 (>= 6.6.1), libqt6svg6 (>= 6.6.0), libqt6svgwidgets6 (>= 6.6.0), libqt6webenginecore6 (>= 6.6.0), libqt6webenginecore6-bin (>= 6.6.0), libqt6webenginewidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 14), libswscale8 (>= 7:7.0), libtiff6 (>= 4.0.3), libx11-6, libx265-215 (>= 4.1), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Filename: ./digikam-private-libs_8.8.0-1~bpo13+1_amd64.deb
+Size: 13625508
+MD5sum: 26b16b403b7b733b478f7b508db97b59
+SHA1: e1ee2478cd9cb00aaa00b487bc23f43f7abb0a67
+SHA256: fbc860a78c84e158bef1806ce3eb9a13d035d2a64337b2309685a640403172de
+Section: libs
+Priority: optional
+Homepage: http://www.digikam.org
+Description: private libraries for digiKam plugins
+ This package contains private libraries to be used by digikam.
+ .
+ This has no use for anything else than digikam, since the libraries are
+ installed in a private library path.
+
 Package: fastfetch
 Version: 2.50.2+dfsg-1~bpo13+1
 Architecture: amd64
@@ -637,6 +725,71 @@ Description: terminal UI for monitoring your computer
  .
  It requires no X server and has built-in integration with
  stress/stress-ng.
+
+Package: showfoto
+Source: digikam
+Version: 4:8.8.0-1~bpo13+1
+Architecture: amd64
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 1466
+Depends: digikam-private-libs (= 4:8.8.0-1~bpo13+1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libkf6iconwidgets6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libmagick++-7.q16-5 (>= 8:7.1.1.21), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 14), digikam-data (= 4:8.8.0-1~bpo13+1)
+Recommends: dolphin
+Filename: ./showfoto_8.8.0-1~bpo13+1_amd64.deb
+Size: 626832
+MD5sum: 746db857ec097243ffb7d51582b398d4
+SHA1: 46e4130fb9ff2b8de14552a90d0fbb841ead9995
+SHA256: 3bf2bf984be412c5456657dd93ff6dd5c147358deaa67124ea8d7d8028cd93c4
+Section: graphics
+Priority: optional
+Homepage: http://www.digikam.org
+Description: image viewer/editor for KDE
+ showFoto is the standalone image editor of the digiKam project.
+ .
+ It runs without digiKam images database support, but provides all Image Editor
+ functions.
+
+Package: strawberry
+Version: 1.2.13-1~bpo13+1
+Architecture: amd64
+Maintainer: Peter Blackman <peter@pblackman.plus.com>
+Installed-Size: 18537
+Depends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libqt6sql6-sqlite, qt6-qpa-plugins, sqlite3, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpod4t64 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu76 (>= 76.1-1~), libkdsingleapplication-qt6-1.0 (>= 1.1.0), libmtp9t64 (>= 1.1.0), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6
+Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio
+Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, qt6ct
+Filename: ./strawberry_1.2.13-1~bpo13+1_amd64.deb
+Size: 5969268
+MD5sum: c6aa11df187c5d932d004ec86311918c
+SHA1: 1e846537dc0fbf6a90cfd7ee47412c16aacaf2fb
+SHA256: ea93c484e70359306a8250b876c19853f60f4b32c28606d5d21a1e52ee1467e8
+Section: sound
+Priority: optional
+Homepage: https://strawberrymusicplayer.org
+Description: audio player and music collection organizer
+ Strawberry is a music player aimed at music collectors and audiophiles.
+ It is a fork of Clementine. The name is inspired by the band Strawbs.
+ .
+ Features:
+  - Play and organize music
+  - Supports WAV, FLAC, WavPack, Ogg Vorbis, Speex, MPC, TrueAudio,
+  -   AIFF, MP4, MP3 and ASF
+  - Audio CD playback
+  - Native desktop notifications
+  - Playlist management
+  - Playlists in multiple formats
+  - Advanced audio and device configuration for bit-perfect playback on Linux
+  - Edit tags on audio files
+  - Automatically retrieve tags from MusicBrainz
+  - Album cover art from Last.fm, Musicbrainz, Discogs, Musixmatch, Deezer,
+  -   Tidal, Qobuz and Spotify
+  - Song lyrics from Musixmatch, ChartLyrics, lyrics.ovh, lololyrics.com,
+     songlyrics.com, azlyrics.com. elyrics.net, letras.mus.br and LyricFind
+  - Audio analyzer
+  - Audio equalizer
+  - Transfer music to mass-storage USB players, MTP compatible devices
+  -   and iPod Nano/Classic
+  - Scrobbler with support for Last.fm, Libre.fm and ListenBrainz
+  - Streaming support for Subsonic-compatible servers
+  - Unofficial streaming support for Tidal and Qobuz
 
 Package: wheel2deb
 Version: 0:0.9.5+bsr-1~w2d0
