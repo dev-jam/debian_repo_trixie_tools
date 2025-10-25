@@ -533,37 +533,35 @@ Description: multithreaded PAR 2.0 compatible file verification and repair tool
  input files.
 
 Package: pdfgui-tools
-Version: 1.0.2
-Architecture: all
+Version: 2.0.0
+Architecture: amd64
 Maintainer: TheWatcherMultiversal <universepenguin@protonmail.com>
-Depends: poppler-utils, python3-pyqt5, qtbase5-dev
-Filename: ./pdfgui_tools_stable-release_1.0.2_all.deb
-Size: 30132
-MD5sum: a945b929eb28afbb0f7ca0b39d1ec35a
-SHA1: 8caa57bd458389ca8400df9c9905ccea73e0010a
-SHA256: ea0db0cf72799e09a9a09d8398d7c360f0a16f5409ffa149e06dadf04f51cc29
+Depends: poppler-utils, xdg-utils, breeze-icon-theme
+Filename: ./pdfgui_tools_2.0.0_all.deb
+Size: 34870
+MD5sum: 1c61089143f65a6c1f9387d4c9dae7d3
+SHA1: 1258bcf1d25eb6bc6880bb56e1c6e0ef1be14984
+SHA256: b093395bda1bd55e44079f72f2d347ec1d768c85c0c8ac793d17938dc1fa10a0
 Section: editors
 Priority: optional
 Homepage: https://github.com/TheWatcherMultiversal/pdfgui_tools/
-Description: pdfgui_tools is a user interface tool developed in Qt
- and Python that integrates with poppler-utils for PDF document
- management. This simple and user-friendly tool allows you to merge
- PDF files, convert PDF to HTML, as well as convert PDF to text.
- Additionally, in the near future, more functions with additional
- features will be added.
+Description: pdfgui_tools is a user interface tool developed in Qt and Python that integrates with poppler-utils and PyPDF2
+ for PDF document management. It's a simple and user-friendly tool that includes various utilities such as merging PDFs,
+ splitting PDFs, converting them to multimedia files like PNG or SVG, encrypting or decrypting, among other utilities included
+ in pdfgui_tools.
 
 Package: praat
-Version: 6.4.44.a+dfsg-1~bpo13+1
+Version: 6.4.46+dfsg-1~bpo13+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 108949
+Installed-Size: 108669
 Depends: file, oss-compat, libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 14)
 Suggests: libasound2-plugins
-Filename: ./praat_6.4.44.a+dfsg-1~bpo13+1_amd64.deb
-Size: 29458988
-MD5sum: 39f7fb9c9845a0645e36c53a61693bb4
-SHA1: 2035ea4d3535049921c2b45028ddd07a6de20948
-SHA256: 9e8e75cfca4d70601ad7451a306d6c402192082809c6c0237ef5c64898251924
+Filename: ./praat_6.4.46+dfsg-1~bpo13+1_amd64.deb
+Size: 29377996
+MD5sum: 5438f2dbe88489f1bdf4f51f506793d6
+SHA1: ba79776592f9bb68f0c16c9abda8eaf818f3972f
+SHA256: f5f161cbab3087258503cbdea2dab4f1e9b34edbfef97e31f0973e129d119ea3
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -579,15 +577,15 @@ Description: program for speech analysis and synthesis
 
 Package: praat-doc
 Source: praat
-Version: 6.4.44.a+dfsg-1~bpo13+1
+Version: 6.4.46+dfsg-1~bpo13+1
 Architecture: all
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 26381
-Filename: ./praat-doc_6.4.44.a+dfsg-1~bpo13+1_all.deb
-Size: 15577324
-MD5sum: dc8c8d71a71b883510b71ace852a0760
-SHA1: 45e79c39198dd90af680d54494d330f453005421
-SHA256: cc87bc3f4723e325d2cf1c19ca36a663704e22ef5870f1ebd6349494a1f58bc1
+Installed-Size: 26390
+Filename: ./praat-doc_6.4.46+dfsg-1~bpo13+1_all.deb
+Size: 15576604
+MD5sum: 546982e8f04f5862974f2a1414ff2c96
+SHA1: debb2699d253e9f66d27ccf935bd5b2eca4ac564
+SHA256: e235429413fd1daad420b025a322aefb38f31f0254c5e3d51426ad5ace0fec56
 Section: doc
 Priority: optional
 Multi-Arch: foreign
