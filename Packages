@@ -789,6 +789,31 @@ Description: audio player and music collection organizer
   - Streaming support for Subsonic-compatible servers
   - Unofficial streaming support for Tidal and Qobuz
 
+Package: unoconv
+Version: 0.7-2.1~bpo13+1
+Architecture: all
+Maintainer: Vincent Bernat <bernat@debian.org>
+Installed-Size: 326
+Depends: python3, python3-uno (>= 4.0), python3-looseversion
+Recommends: libreoffice-writer, libreoffice-draw, libreoffice-calc, libreoffice-impress
+Conflicts: odt2txt (<= 0.3-1)
+Filename: ./unoconv_0.7-2.1~bpo13+1_all.deb
+Size: 48924
+MD5sum: 1c1a5b8204725653ee8c3f81081e5cb7
+SHA1: 34f66885463bd1d58f9bc7ce140e0b82964643bd
+SHA256: 8356582fcb0aa4ecb3179368a4ef048781929085cbb957d78196d09712c74575
+Section: text
+Priority: optional
+Homepage: http://dag.wieers.com/home-made/unoconv/
+Description: converter between LibreOffice document formats
+ This package provides a commandline utility which can convert from
+ any document format that LibreOffice can import to any document format
+ it can export. It uses LibreOffice's UNO bindings for non-interactive
+ conversion of documents.
+ .
+ Supported document formats include Open Document format, MS Word, MS
+ Office Open/MS OOXML, PDF, HTML, XHTML, RTF, DocBook, and more.
+
 Package: wheel2deb
 Version: 0:0.9.5+bsr-1~w2d0
 Architecture: all
