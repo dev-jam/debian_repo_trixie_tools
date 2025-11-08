@@ -1,0 +1,8 @@
+X-Repolib-Name: dev-jam Tools
+Enabled: yes
+Types: deb
+URIs: https://dev-jam.github.io/debian_repo_trixie_tools/
+Suites: ./
+Components: 
+Signed-By: /usr/share/keyrings/dev-jam.asc
+
