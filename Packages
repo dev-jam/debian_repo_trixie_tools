@@ -967,6 +967,52 @@ Description: XLibre X server - development files
  .
  This package is built from the XLibre xserver module.
 
+Package: xserver-xlibre-input-vmmouse
+Version: 1:13.2.0.3-1~bpo13+1
+Architecture: amd64
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 70
+Depends: libc6 (>= 2.34), libudev1 (>= 183), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8), udev
+Conflicts: xserver-xorg-input-vmmouse
+Provides: xlibre-driver-input, xserver-xorg-input-vmmouse (= 1:13.2.0.3-1~bpo13+1)
+Filename: ./xserver-xlibre-input-vmmouse_13.2.0.3-1~bpo13+1_amd64.deb
+Size: 13348
+MD5sum: 17c60b9f7d704f9844ed610372f4b617
+SHA1: 5cc336e73dd478829c53766104838c67931270cd
+SHA256: 953e0f3d899a838d09f4461a92f4dde19cf0dddc2d7c60ad17446bf5afb3fd71
+Section: x11
+Priority: optional
+Homepage: https://github.com/X11Libre
+Description: XLibre X server -- VMMouse input driver to use with VMWare
+ This package provides the driver for the X11 vmmouse input device.
+ .
+ The VMMouse driver enables support for the special VMMouse protocol
+ that is provided by VMware virtual machines to give absolute pointer
+ positioning.
+ .
+ More information about XLibre can be found at:
+ <URL:https://www.github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xf86-input-vmmouse driver module.
+
+Package: xserver-xlibre-input-vmmouse-dbgsym
+Source: xserver-xlibre-input-vmmouse
+Version: 1:13.2.0.3-1~bpo13+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 63
+Depends: xserver-xlibre-input-vmmouse (= 1:13.2.0.3-1~bpo13+1)
+Filename: ./xserver-xlibre-input-vmmouse-dbgsym_13.2.0.3-1~bpo13+1_amd64.deb
+Size: 38164
+MD5sum: 493414df5110916cc112da5a8ab44b0d
+SHA1: c89d7382d8276a4e00094f2446b0b48a51fc3f5f
+SHA256: b79d8e2c3b381cde0e280b2c35d01d987d8d4c14b44ade0c96a055cb02d7405c
+Section: debug
+Priority: optional
+Description: debug symbols for xserver-xlibre-input-vmmouse
+Build-Ids: b7eaee1b9aa2c1014e9f2ac165b24b87b9d57f7e e66cf3432f35486fb597d2b5a4caee9ea1afdff6
+
 Package: xserver-xlibre-legacy
 Source: xlibre-server
 Version: 2:25.0.0.15-1~bpo13+1
@@ -1007,6 +1053,97 @@ Section: debug
 Priority: optional
 Description: debug symbols for xserver-xlibre-legacy
 Build-Ids: c88d0f5fa171915747e309db0d4627121ee9dccc
+
+Package: xserver-xlibre-video-amdgpu
+Version: 23.0.0.6-1~bpo13+1
+Architecture: amd64
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 183
+Depends: libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 8.1~0), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
+Suggests: firmware-amd-graphics
+Conflicts: xserver-xorg-video-amdgpu
+Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 23.0.0.6-1~bpo13+1)
+Filename: ./xserver-xlibre-video-amdgpu_23.0.0.6-1~bpo13+1_amd64.deb
+Size: 66188
+MD5sum: 1180b02464e9901c0e5cfc47b6d6e88d
+SHA1: 8a8df98bd5f6c2a756bb94448a7272908721171d
+SHA256: e9b25b932966823674b059c0955eb57043c4b572a2acc86345d351d61d608eba
+Section: x11
+Priority: optional
+Homepage: https://github.com/X11Libre
+Description: XLibre X server -- AMDGPU display driver
+ This package provides the 'amdgpu' driver for the AMD Radeon cards. The
+ following chip families should be supported: Bonaire, Hawaii, Kaveri, Kabini
+ Mullins, Iceland, Tonga, Carrizo, Fiji, Stoney.
+ .
+ More information about XLibre can be found at:
+ <URL:https://www.github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xf86-video-amdgpu driver module.
+
+Package: xserver-xlibre-video-amdgpu-dbgsym
+Source: xserver-xlibre-video-amdgpu
+Version: 23.0.0.6-1~bpo13+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 498
+Depends: xserver-xlibre-video-amdgpu (= 23.0.0.6-1~bpo13+1)
+Filename: ./xserver-xlibre-video-amdgpu-dbgsym_23.0.0.6-1~bpo13+1_amd64.deb
+Size: 468808
+MD5sum: f363a64b04b58081fc5a0fc8778c4544
+SHA1: 50393da9d5e084ae7005444c517738fbb46f2ddd
+SHA256: 101e3c63eef02cd12cede42baab238360b5f2a74b7491cbc3c9dd34c722bb14b
+Section: debug
+Priority: optional
+Description: debug symbols for xserver-xlibre-video-amdgpu
+Build-Ids: acdd884de25a522374feb0a53e0d5a4bf250a74b
+
+Package: xserver-xlibre-video-vesa
+Version: 1:2.6.0.4-1~bpo13+1
+Architecture: amd64
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 51
+Depends: libc6 (>= 2.14), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
+Conflicts: xserver-xorg-video-vesa
+Provides: xlibre-driver-video, xserver-xorg-video-vesa (= 1:2.6.0.4-1~bpo13+1)
+Filename: ./xserver-xlibre-video-vesa_2.6.0.4-1~bpo13+1_amd64.deb
+Size: 14544
+MD5sum: e5d44e3a0b8327e93fdd1d59fe2fc543
+SHA1: 6c237650410ad9e14d6adc63988121dc8c8a77bf
+SHA256: 588723d003ba0dc414eba8cf6a0284262a5164580dc0de96da1798d1189a9586
+Section: x11
+Priority: optional
+Homepage: https://github.com/X11Libre
+Description: XLibre X server -- VESA display driver
+ This driver for the XLibre X server (see xserver-xlibre for a further description)
+ uses the standard VESA interface provided on all video cards, but runs
+ unaccelerated.  This driver is not recommended for use unless you have a
+ problem with the normal driver for your card, because it will perform very
+ badly.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xf86-video-vesa driver module.
+
+Package: xserver-xlibre-video-vesa-dbgsym
+Source: xserver-xlibre-video-vesa
+Version: 1:2.6.0.4-1~bpo13+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 68
+Depends: xserver-xlibre-video-vesa (= 1:2.6.0.4-1~bpo13+1)
+Filename: ./xserver-xlibre-video-vesa-dbgsym_2.6.0.4-1~bpo13+1_amd64.deb
+Size: 53528
+MD5sum: e3f64de2c807bcc1bed69654dec9bc14
+SHA1: 88ea4099239384f53f35e73c4d26fb03d0a2d97a
+SHA256: cfd6a89a567dc78d8c30cfee747de4e74c83110991db5139f2bd164f0eca5925
+Section: debug
+Priority: optional
+Description: debug symbols for xserver-xlibre-video-vesa
+Build-Ids: 0ac453496e29725144fb5098cb3d87006ba3a34c
 
 Package: xserver-xlibre-xephyr
 Source: xlibre-server
