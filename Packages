@@ -684,6 +684,22 @@ Priority: optional
 Description: Linux audio performance analyzer
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-yt-dlp
+Version: 0:2025.11.12-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 10892
+Depends: python3 (>= 3.10~), python3:any
+Filename: ./python3-yt-dlp_2025.11.12-1~w2d0_all.deb
+Size: 1877944
+MD5sum: 6e5e68f41650e19d1f5189a6e83ea62e
+SHA1: ab56f0d41483c78becde2e230fbb5d9ad9451960
+SHA256: 8ca3b15f1ea009486184720d1c5e28c37ba4d611d247bc211f348d676f9985a2
+Section: python
+Priority: optional
+Description: A feature-rich command-line audio/video downloader
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: s-tui
 Version: 1.2.0-1~bpo13+1
 Architecture: all
