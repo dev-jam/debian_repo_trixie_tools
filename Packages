@@ -684,22 +684,6 @@ Priority: optional
 Description: Linux audio performance analyzer
  This package was automatically generated from the upstream wheel by wheel2deb.
 
-Package: python3-yt-dlp
-Version: 0:2025.11.12-1~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 10892
-Depends: python3 (>= 3.10~), python3:any
-Filename: ./python3-yt-dlp_2025.11.12-1~w2d0_all.deb
-Size: 1877944
-MD5sum: 6e5e68f41650e19d1f5189a6e83ea62e
-SHA1: ab56f0d41483c78becde2e230fbb5d9ad9451960
-SHA256: 8ca3b15f1ea009486184720d1c5e28c37ba4d611d247bc211f348d676f9985a2
-Section: python
-Priority: optional
-Description: A feature-rich command-line audio/video downloader
- This package was automatically generated from the upstream wheel by wheel2deb.
-
 Package: s-tui
 Version: 1.2.0-1~bpo13+1
 Architecture: all
@@ -1314,4 +1298,20 @@ Section: debug
 Priority: optional
 Description: debug symbols for xserver-xlibre-xvfb
 Build-Ids: 37951765d28d610f096a8d895ff5a87707930da0
+
+Package: yt-dlp
+Version: 0:2025.11.12-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 10892
+Depends: python3 (>= 3.10~), python3:any
+Filename: ./yt-dlp_2025.11.12-1~w2d0_all.deb
+Size: 1877936
+MD5sum: 3f80d22f1d60a52ff3726a0a3b794c0b
+SHA1: 316ae649b2811ffb8de67976e0cf077d3939b29e
+SHA256: 04c5a2315927e603314958c1a1b531b69c676cecc58887ad3b7a07f796a3d8ba
+Section: python
+Priority: optional
+Description: A feature-rich command-line audio/video downloader
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
