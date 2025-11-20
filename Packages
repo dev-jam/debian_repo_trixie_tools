@@ -1099,6 +1099,50 @@ Priority: optional
 Description: debug symbols for xserver-xlibre-video-amdgpu
 Build-Ids: acdd884de25a522374feb0a53e0d5a4bf250a74b
 
+Package: xserver-xlibre-video-qxl
+Version: 0.1.6.3-1
+Architecture: amd64
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 216
+Depends: libc6 (>= 2.38), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
+Conflicts: xserver-xorg-video-qxl
+Provides: xlibre-driver-video, xserver-xorg-video-qxl (= 0.1.6.3-1)
+Filename: ./xserver-xlibre-video-qxl_0.1.6.3-1_amd64.deb
+Size: 83284
+MD5sum: caea07434c908568028934de7ab2a957
+SHA1: c3cf9150bb86d384c073efb3598fe36bdba00eb6
+SHA256: bf6716447280e31ae2b8591edab26e03ab92c93b63424f8869fd60e5b640f7b7
+Section: x11
+Priority: optional
+Homepage: https://github.com/X11Libre
+Description: XLibre X server -- QXL display driver
+ This package provides the driver for QXL video device, i.e. if Linux is
+ running inside a RedHat Enterprise Virtualization (RHEV) environment, or
+ other SPICE-compatible KVM/Qemu emulator.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xf86-video-qxl driver module.
+
+Package: xserver-xlibre-video-qxl-dbgsym
+Source: xserver-xlibre-video-qxl
+Version: 0.1.6.3-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 357
+Depends: xserver-xlibre-video-qxl (= 0.1.6.3-1)
+Filename: ./xserver-xlibre-video-qxl-dbgsym_0.1.6.3-1_amd64.deb
+Size: 322460
+MD5sum: 2632194b65958676b311485c1016977d
+SHA1: 402b1ac2055b170f4c3f3e95f3e1cbfcce7ec20b
+SHA256: 4b8208e77fcc5a6e01c19b3f6425c329926b27ca786358cbd632195e6f5ec0c5
+Section: debug
+Priority: optional
+Description: debug symbols for xserver-xlibre-video-qxl
+Build-Ids: cc95e0e52bbf97d2f1f19b68696b241f611d50ac
+
 Package: xserver-xlibre-video-vesa
 Version: 1:2.6.0.4-1~bpo13+1
 Architecture: amd64
@@ -1240,6 +1284,53 @@ Section: debug
 Priority: optional
 Description: debug symbols for xserver-xlibre-xnest
 Build-Ids: 5d98ab5703ac670c5efef94671aac7928c06dc21
+
+Package: xserver-xlibre-xspice
+Source: xserver-xlibre-video-qxl
+Version: 0.1.6.3-1
+Architecture: amd64
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 258
+Depends: libc6 (>= 2.38), libspice-server1 (>= 0.13.2), libxfont2 (>= 1:2.0.1), python3:any, xserver-xlibre, xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
+Conflicts: xserver-xspice
+Breaks: xserver-xorg-video-qxl (<< 0.1.4-2~)
+Replaces: xserver-xorg-video-qxl (<< 0.1.4-2~)
+Provides: xserver-xspice (= 0.1.6.3-1)
+Filename: ./xserver-xlibre-xspice_0.1.6.3-1_amd64.deb
+Size: 95608
+MD5sum: ce5981c214a3cf5644f66aa828b9ddd1
+SHA1: 259dcac85ed9874cf8f16f77cc9c71f44bf47fbc
+SHA256: cedf77778c83b152a590b610c5fb772303aec80fe86d3bab93bb8c62100a985f
+Section: x11
+Priority: optional
+Homepage: https://github.com/X11Libre
+Description: Xspice X server
+ Xspice is an X server and Spice server in one. It consists of a wrapper script
+ for executing XLibre with the right parameters and environment variables, a
+ module names spiceqxl_drv.so implementing three drivers: a video mostly
+ identical code to the guest qxl X driver, and keyboard and mouse reading from
+ the spice inputs channel.
+ .
+ Xspice allows regular X connections, while a spice client provides the keyboard
+ and mouse and video output.
+
+Package: xserver-xlibre-xspice-dbgsym
+Source: xserver-xlibre-video-qxl
+Version: 0.1.6.3-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 397
+Depends: xserver-xlibre-xspice (= 0.1.6.3-1)
+Filename: ./xserver-xlibre-xspice-dbgsym_0.1.6.3-1_amd64.deb
+Size: 361504
+MD5sum: 53a14382acfdf8d4b8e757d3ec393d3d
+SHA1: f9c219f73c165a759ade45094ba7e0db8013d9dd
+SHA256: 8f544393bcd85168c14b2bc5417d54549e74e750f8ffbdae92a6a79fb4ac413a
+Section: debug
+Priority: optional
+Description: debug symbols for xserver-xlibre-xspice
+Build-Ids: 806b2472658a95c41cca394ebdc9d21f25cdd1c1
 
 Package: xserver-xlibre-xvfb
 Source: xlibre-server
