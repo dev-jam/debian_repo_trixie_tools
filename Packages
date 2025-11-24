@@ -1401,19 +1401,19 @@ Description: debug symbols for xserver-xlibre-video-amdgpu
 Build-Ids: acdd884de25a522374feb0a53e0d5a4bf250a74b
 
 Package: xserver-xlibre-video-ati
-Version: 2:22.0.0.3-1
+Version: 2:22.0.0.4-1
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 38
 Depends: libc6 (>= 2.4), libpciaccess0, xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8), xserver-xlibre-video-radeon
 Suggests: xserver-xorg-video-r128, xserver-xorg-video-mach64
 Conflicts: xserver-xorg-video-ati
-Provides: xlibre-driver-video, xserver-xorg-video-ati (= 2:22.0.0.3-1)
-Filename: ./xserver-xlibre-video-ati_22.0.0.3-1_amd64.deb
-Size: 6920
-MD5sum: 4bc83578ef960b0754c360c96a715675
-SHA1: 5615dbc26e6851d1c4fd118a4d5886f0fe49af87
-SHA256: f337ef0774f2399379e532ada980f50d2707f2b3456254eb6eb2ffe5b86f1caa
+Provides: xlibre-driver-video, xserver-xorg-video-ati (= 2:22.0.0.4-1)
+Filename: ./xserver-xlibre-video-ati_22.0.0.4-1_amd64.deb
+Size: 6964
+MD5sum: 420ffe92a98a60b8c31ea039bc47818d
+SHA1: 9f39350e5e98fe94a4c1e6376d34ed04a2d2fd62
+SHA256: c1fbbb4784d154f541363c75391fad53a92674e3dba9dc0559e9436819b289fa
 Section: x11
 Priority: optional
 Homepage: https://github.com/X11Libre
@@ -1435,21 +1435,21 @@ Description: XLibre X server -- AMD/ATI display driver wrapper
 
 Package: xserver-xlibre-video-ati-dbgsym
 Source: xserver-xlibre-video-ati
-Version: 2:22.0.0.3-1
+Version: 2:22.0.0.4-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 23
-Depends: xserver-xlibre-video-ati (= 2:22.0.0.3-1)
-Filename: ./xserver-xlibre-video-ati-dbgsym_22.0.0.3-1_amd64.deb
-Size: 10240
-MD5sum: ea8c69501bb0385fe4e2374e21bc13c4
-SHA1: 6aef923cfccb66077b611d253761be357127826c
-SHA256: 3e45f32a3e078cbf67290b50c72bb5276c462b5d87d147d5ca52c0091e18dfa3
+Depends: xserver-xlibre-video-ati (= 2:22.0.0.4-1)
+Filename: ./xserver-xlibre-video-ati-dbgsym_22.0.0.4-1_amd64.deb
+Size: 10304
+MD5sum: 39583c770414cf8046f7b96d574bf3c1
+SHA1: 9449ae217406c66b2c05e86c0482c146d31cd8fc
+SHA256: da78fa3d2a62896c8db2ee03628d6330aae3ae01b1e5284ecead6416bf908bb9
 Section: debug
 Priority: optional
 Description: debug symbols for xserver-xlibre-video-ati
-Build-Ids: 0eef3f1ef1c29fb546f9063821dcdab8b50f5276
+Build-Ids: e095a1897c4a380ce049abeb9911eb856b54b0d5
 
 Package: xserver-xlibre-video-dummy
 Version: 2:0.4.1.2-1
@@ -1586,7 +1586,7 @@ Description: debug symbols for xserver-xlibre-video-intel
 Build-Ids: 0c95a513beff2faf90454d564fc4a131728b99bd 30e61709c72dac24ef782102a854701370ea13cd 5a0557dd1330e31b03b3b0f149e5add715563ab2 8187b47042df6de76be0fc6c80f7e91324c54560
 
 Package: xserver-xlibre-video-nouveau
-Version: 2:1.0.18.3-1
+Version: 2:1.0.18.4-1
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 250
@@ -1594,12 +1594,12 @@ Depends: libc6 (>= 2.33), libdrm-nouveau2 (>= 2.4.38), libdrm2 (>= 2.4.61), libu
 Recommends: libgl1-mesa-dri
 Suggests: firmware-misc-nonfree
 Conflicts: xserver-xorg-video-nouveau
-Provides: xlibre-driver-video, xserver-xorg-video-nouveau (= 2:1.0.18.3-1)
-Filename: ./xserver-xlibre-video-nouveau_1.0.18.3-1_amd64.deb
-Size: 88612
-MD5sum: 559f38bab54fa1bb8b2d49efc9cb0601
-SHA1: 73985df283664acc5be91ce217f0dcb408169766
-SHA256: da15ac8bed5fbf519c24b1eeec521a12a8b24191d2d749850561a01517783077
+Provides: xlibre-driver-video, xserver-xorg-video-nouveau (= 2:1.0.18.4-1)
+Filename: ./xserver-xlibre-video-nouveau_1.0.18.4-1_amd64.deb
+Size: 88868
+MD5sum: fbee4d99bc2178000bd9a141cdd8c1ed
+SHA1: 126ea84067ac5fe1134aeb608c52c122de0d8ee4
+SHA256: 21ab7638bff16719e457815698ba4d8123126ec862e8b0663631419362eef6dc
 Section: x11
 Priority: optional
 Homepage: https://github.com/X11Libre
@@ -1614,21 +1614,21 @@ Description: XLibre X server -- Nouveau display driver
 
 Package: xserver-xlibre-video-nouveau-dbgsym
 Source: xserver-xlibre-video-nouveau
-Version: 2:1.0.18.3-1
+Version: 2:1.0.18.4-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 499
-Depends: xserver-xlibre-video-nouveau (= 2:1.0.18.3-1)
-Filename: ./xserver-xlibre-video-nouveau-dbgsym_1.0.18.3-1_amd64.deb
-Size: 474640
-MD5sum: a3af401c4a3bdbdf1d4cb65a66c8e526
-SHA1: 2021a2358710f83a848b1ae94ddf2bc2f94d0629
-SHA256: 9627b7e3d6b24d7550b9ed31bfb3df5d8499da3dd18ec35978698f95d0adf1b1
+Depends: xserver-xlibre-video-nouveau (= 2:1.0.18.4-1)
+Filename: ./xserver-xlibre-video-nouveau-dbgsym_1.0.18.4-1_amd64.deb
+Size: 474692
+MD5sum: 825f0debea7c5df77d6b151216adc4e9
+SHA1: d271ab17d867b654e630002dc45a6edc96f86326
+SHA256: a9e9f6dcc84631c1ad3eb18b4f3de9cdce7ca94a89d03a4e935a2288acc22200
 Section: debug
 Priority: optional
 Description: debug symbols for xserver-xlibre-video-nouveau
-Build-Ids: 0739abeeaee5dc1dd62bd8436880d0263a18976f
+Build-Ids: dd6821d38e5e2c877242f37672adbe2252b785f2
 
 Package: xserver-xlibre-video-qxl
 Version: 2:0.1.6.3-1
@@ -1676,19 +1676,19 @@ Build-Ids: cc95e0e52bbf97d2f1f19b68696b241f611d50ac
 
 Package: xserver-xlibre-video-radeon
 Source: xserver-xlibre-video-ati
-Version: 2:22.0.0.3-1
+Version: 2:22.0.0.4-1
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 525
 Depends: libc6 (>= 2.17), libdrm-radeon1 (>= 2.4.89), libgbm1 (>= 8.1~0), libudev1 (>= 183)
 Suggests: firmware-amd-graphics
 Conflicts: xserver-xorg-video-radeon
-Provides: xserver-xorg-video-radeon (= 2:22.0.0.3-1)
-Filename: ./xserver-xlibre-video-radeon_22.0.0.3-1_amd64.deb
-Size: 149404
-MD5sum: 17a81ae311e87e773ce7cefffd3a9b8a
-SHA1: d38f6097c69368aab8aec8139477da2f1aeb6c20
-SHA256: 9b003a44bdf956def6bf0a94abbd2808e2506424b9f4aaffb6f4612d9094008c
+Provides: xserver-xorg-video-radeon (= 2:22.0.0.4-1)
+Filename: ./xserver-xlibre-video-radeon_22.0.0.4-1_amd64.deb
+Size: 149124
+MD5sum: e78de5990d1d3018e93d5615e2822b4a
+SHA1: 514f843f9b9c327569b901c323ee776bc6a0beb0
+SHA256: fa27d285a743b12dcba5f99d3d10710a1117986774057b59dce0b70b59a5e4e7
 Section: x11
 Priority: optional
 Homepage: https://github.com/X11Libre
@@ -1710,21 +1710,21 @@ Description: XLibre X server -- AMD/ATI Radeon display driver
 
 Package: xserver-xlibre-video-radeon-dbgsym
 Source: xserver-xlibre-video-ati
-Version: 2:22.0.0.3-1
+Version: 2:22.0.0.4-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 769
-Depends: xserver-xlibre-video-radeon (= 2:22.0.0.3-1)
-Filename: ./xserver-xlibre-video-radeon-dbgsym_22.0.0.3-1_amd64.deb
-Size: 730216
-MD5sum: 19b873683273bc05941b4408a547428b
-SHA1: 608a8180163096e3a19a5b8f08a0f1240c2edf13
-SHA256: 746d23f67a81ba8a45c1327e3e77d4ad5455e45912f72e0e551cd1aba96cebfe
+Depends: xserver-xlibre-video-radeon (= 2:22.0.0.4-1)
+Filename: ./xserver-xlibre-video-radeon-dbgsym_22.0.0.4-1_amd64.deb
+Size: 729944
+MD5sum: 9e55ad32541e4239e9435b5ca5412547
+SHA1: 2bb8b6b5e1143d68e9e48b4a93456809be6f5282
+SHA256: 494dfcaf343ea014eb852138b72887b4d90e7b73475cc64fa65532cde2a23b8b
 Section: debug
 Priority: optional
 Description: debug symbols for xserver-xlibre-video-radeon
-Build-Ids: 651a6e494820ebd239268752066d7dd1937dff53
+Build-Ids: 7d65b6daad1bd78eb978790e37a138a6d413ae03
 
 Package: xserver-xlibre-video-sisusb
 Version: 2:0.9.7.2-1
