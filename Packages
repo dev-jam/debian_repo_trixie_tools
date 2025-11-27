@@ -1538,18 +1538,18 @@ Description: debug symbols for xserver-xlibre-video-fbdev
 Build-Ids: 6e8ddf2cf68549b362c107583b83c8837ffa7849
 
 Package: xserver-xlibre-video-intel
-Version: 2:3.0.0.4-1
+Version: 2:3.0.0.5-1
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 3116
 Depends: libc6 (>= 2.34), libdrm-intel1 (>= 2.4.38), libdrm2 (>= 2.4.62), libpixman-1-0 (>= 0.30.0), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-dri2-0, libxcb-util1 (>= 0.4.0), libxcb1, libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.99.2), libxrender1 (>= 1:0.9.12), libxss1, libxtst6 (>= 2:1.2.5), libxvmc1 (>= 2:1.0.12), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
 Conflicts: xserver-xorg-video-intel
-Provides: xlibre-driver-video, xserver-xorg-video-intel (= 2:3.0.0.4-1)
-Filename: ./xserver-xlibre-video-intel_3.0.0.4-1_amd64.deb
-Size: 1606800
-MD5sum: 23cf09ef099a9830d6b53e171e175c00
-SHA1: c26eecada7c825bb27cb6758e0ddfa61ff5b41d4
-SHA256: 28e20b1575129f1f92bc9256b31401fcb53c3bb3c3e949d96b7d4a9f8541ed66
+Provides: xlibre-driver-video, xserver-xorg-video-intel (= 2:3.0.0.5-1)
+Filename: ./xserver-xlibre-video-intel_3.0.0.5-1_amd64.deb
+Size: 1607072
+MD5sum: 121d15eb8aff7cdd3cfd7a0e2cda5913
+SHA1: 87a16e04dc92af8690e7d04e941b745404c81be4
+SHA256: d2886e41c9fba4f467e458ede84eb78c33c804fdb6736b140cab3aef2dbda74f
 Section: x11
 Priority: optional
 Homepage: https://github.com/X11Libre
@@ -1569,21 +1569,21 @@ Description: XLibre X server -- Intel i8xx, i9xx display driver
 
 Package: xserver-xlibre-video-intel-dbgsym
 Source: xserver-xlibre-video-intel
-Version: 2:3.0.0.4-1
+Version: 2:3.0.0.5-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 2931
-Depends: xserver-xlibre-video-intel (= 2:3.0.0.4-1)
-Filename: ./xserver-xlibre-video-intel-dbgsym_3.0.0.4-1_amd64.deb
-Size: 2821220
-MD5sum: 2a57b45e9d08fdc54ffc503def87a9db
-SHA1: c6588ff0537099479e27b58f2e1dd3f7acadd3a4
-SHA256: cf13065634893858ba53389ded09f3305a4708bcb0ea4b6bb322d90856223b55
+Depends: xserver-xlibre-video-intel (= 2:3.0.0.5-1)
+Filename: ./xserver-xlibre-video-intel-dbgsym_3.0.0.5-1_amd64.deb
+Size: 2820932
+MD5sum: b2afbb00b7faa569f22637708958c645
+SHA1: 90f00433c4ce2ccb8ae690526569c44fba0152e9
+SHA256: f4e539979a2519819ea75598b02092196606b20768a80f9eb1356bd1dab42f59
 Section: debug
 Priority: optional
 Description: debug symbols for xserver-xlibre-video-intel
-Build-Ids: 0c95a513beff2faf90454d564fc4a131728b99bd 30e61709c72dac24ef782102a854701370ea13cd 5a0557dd1330e31b03b3b0f149e5add715563ab2 8187b47042df6de76be0fc6c80f7e91324c54560
+Build-Ids: 0c95a513beff2faf90454d564fc4a131728b99bd 5a0557dd1330e31b03b3b0f149e5add715563ab2 8187b47042df6de76be0fc6c80f7e91324c54560 e3e02ba2f3135c8765559b4e1ef4e71a6247b799
 
 Package: xserver-xlibre-video-nouveau
 Version: 2:1.0.18.4-1
@@ -1855,18 +1855,18 @@ Description: debug symbols for xserver-xlibre-video-vmware
 Build-Ids: a497ed4897fd31a14e9366e6257fa398cf942ed6 a6bd4f7c77d220456c258d05b3f1718cd73af31d
 
 Package: xserver-xlibre-video-voodoo
-Version: 2:1.2.6.2-1
+Version: 2:1.2.6.3-1
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 48
 Depends: libc6 (>= 2.2.5), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
 Conflicts: xserver-xorg-video-voodoo
-Provides: xlibre-driver-video, xserver-xorg-video-voodoo (= 2:1.2.6.2-1)
-Filename: ./xserver-xlibre-video-voodoo_1.2.6.2-1_amd64.deb
-Size: 12944
-MD5sum: a96f92b88acd715b68d1fae95bf13e45
-SHA1: 7ef6870f766740c5a260321efb90f334bdd40687
-SHA256: 2ac9ff6295d8eadb6d1a667eb990dc0a7b4339a82c2e9b45486a7ce6f70534f1
+Provides: xlibre-driver-video, xserver-xorg-video-voodoo (= 2:1.2.6.3-1)
+Filename: ./xserver-xlibre-video-voodoo_1.2.6.3-1_amd64.deb
+Size: 12952
+MD5sum: 6f4476cdb0de993abd192af8bf16f19e
+SHA1: 927acc234e23995b67e1419b703f7c665cd3ccb9
+SHA256: e86ee685b6697f8f02199c6316538da2c40eb44d55a8d5a17b4013a08289780d
 Section: x11
 Priority: optional
 Homepage: https://github.com/X11Libre
@@ -1880,21 +1880,21 @@ Description: XLibre X server -- Voodoo display driver
 
 Package: xserver-xlibre-video-voodoo-dbgsym
 Source: xserver-xlibre-video-voodoo
-Version: 2:1.2.6.2-1
+Version: 2:1.2.6.3-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 86
-Depends: xserver-xlibre-video-voodoo (= 2:1.2.6.2-1)
-Filename: ./xserver-xlibre-video-voodoo-dbgsym_1.2.6.2-1_amd64.deb
+Depends: xserver-xlibre-video-voodoo (= 2:1.2.6.3-1)
+Filename: ./xserver-xlibre-video-voodoo-dbgsym_1.2.6.3-1_amd64.deb
 Size: 70156
-MD5sum: 9eef5eacc3fa79c239d73cb794e74855
-SHA1: 7a5457a130ff29b6dc2032d674b76d0faabfda4c
-SHA256: 6bdb015e00dec8ad7075b672ad6f5640e5bc1259a6c510a509c344765d9004e6
+MD5sum: 94a74eb8e6f0cd5791024aa8b941e7a2
+SHA1: ab1fec4ee8b98229dd0059e1f14a779bcbe2c43c
+SHA256: a281b0e1ff778e5dbd1fb40ed6cd4a3b9a30b97f2fa11bbd84a1f32f7e59bc59
 Section: debug
 Priority: optional
 Description: debug symbols for xserver-xlibre-video-voodoo
-Build-Ids: f80ae237149b3564fe46b4523adb82f4afd61a23
+Build-Ids: 9cc46a227bcfe6bd7552818cddae779fda1b38c3
 
 Package: xserver-xlibre-xephyr
 Source: xlibre-server
