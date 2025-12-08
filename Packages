@@ -1385,19 +1385,19 @@ Description: debug symbols for xserver-xlibre-legacy
 Build-Ids: c88d0f5fa171915747e309db0d4627121ee9dccc
 
 Package: xserver-xlibre-video-amdgpu
-Version: 2:23.0.0.6-1
+Version: 2:23.0.0.7-1
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 183
 Depends: libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 8.1~0), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
 Suggests: firmware-amd-graphics
 Conflicts: xserver-xorg-video-amdgpu
-Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 2:23.0.0.6-1)
-Filename: ./xserver-xlibre-video-amdgpu_23.0.0.6-1_amd64.deb
-Size: 66144
-MD5sum: 5a9ba2e1cc8d0d6e31e8d4b58cc1287f
-SHA1: fdce7af356c66b4fbb41c96c8fa2c3b483b0b828
-SHA256: 649da7a6054cc74cfcbec329ac7ee9ab2938fb09ea9f0f6116df87f4570aafa4
+Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 2:23.0.0.7-1)
+Filename: ./xserver-xlibre-video-amdgpu_23.0.0.7-1_amd64.deb
+Size: 66212
+MD5sum: 2a67246b265e54a2b2cd16966a8ecf9e
+SHA1: babdd34807f3d9431608fbdaaf51836bff9f1ae1
+SHA256: 951532b57b26f8efcf1e9e6d25963ed14031ce711e4d42eb4c546f4a757ab4d5
 Section: x11
 Priority: optional
 Homepage: https://github.com/X11Libre
@@ -1413,21 +1413,21 @@ Description: XLibre X server -- AMDGPU display driver
 
 Package: xserver-xlibre-video-amdgpu-dbgsym
 Source: xserver-xlibre-video-amdgpu
-Version: 2:23.0.0.6-1
+Version: 2:23.0.0.7-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 498
-Depends: xserver-xlibre-video-amdgpu (= 2:23.0.0.6-1)
-Filename: ./xserver-xlibre-video-amdgpu-dbgsym_23.0.0.6-1_amd64.deb
-Size: 468800
-MD5sum: bb21a5ad625687f8a79648319a021283
-SHA1: c315bdf808a1ca765c6c44ea132e28ed73174040
-SHA256: d608cc8af4b903f2f924c9a59c31ae679becf90e9df995760fda2156da579343
+Depends: xserver-xlibre-video-amdgpu (= 2:23.0.0.7-1)
+Filename: ./xserver-xlibre-video-amdgpu-dbgsym_23.0.0.7-1_amd64.deb
+Size: 468940
+MD5sum: a62b26cd8a15756da96306abdc231c38
+SHA1: 31d2fae5f64c23d6626683ad0ee66db36f696f69
+SHA256: 0149f3411f34c7f494ca09b0c487da720be20c662743171c6f92c2bf0ea3d057
 Section: debug
 Priority: optional
 Description: debug symbols for xserver-xlibre-video-amdgpu
-Build-Ids: acdd884de25a522374feb0a53e0d5a4bf250a74b
+Build-Ids: 3d37c980bbe69c17b8419fbcc8bf2bb29bd611c7
 
 Package: xserver-xlibre-video-ati
 Version: 2:22.0.0.4-1
@@ -1567,18 +1567,18 @@ Description: debug symbols for xserver-xlibre-video-fbdev
 Build-Ids: 6e8ddf2cf68549b362c107583b83c8837ffa7849
 
 Package: xserver-xlibre-video-intel
-Version: 2:3.0.0.5-1
+Version: 2:3.0.0.6-1
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 3116
 Depends: libc6 (>= 2.34), libdrm-intel1 (>= 2.4.38), libdrm2 (>= 2.4.62), libpixman-1-0 (>= 0.30.0), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-dri2-0, libxcb-util1 (>= 0.4.0), libxcb1, libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.99.2), libxrender1 (>= 1:0.9.12), libxss1, libxtst6 (>= 2:1.2.5), libxvmc1 (>= 2:1.0.12), xorg-video-abi-28, xserver-xlibre-core (>= 25.0.0.8)
 Conflicts: xserver-xorg-video-intel
-Provides: xlibre-driver-video, xserver-xorg-video-intel (= 2:3.0.0.5-1)
-Filename: ./xserver-xlibre-video-intel_3.0.0.5-1_amd64.deb
-Size: 1607072
-MD5sum: 121d15eb8aff7cdd3cfd7a0e2cda5913
-SHA1: 87a16e04dc92af8690e7d04e941b745404c81be4
-SHA256: d2886e41c9fba4f467e458ede84eb78c33c804fdb6736b140cab3aef2dbda74f
+Provides: xlibre-driver-video, xserver-xorg-video-intel (= 2:3.0.0.6-1)
+Filename: ./xserver-xlibre-video-intel_3.0.0.6-1_amd64.deb
+Size: 1607268
+MD5sum: 23e12ca150bd25f1ead88f2165c2b032
+SHA1: ed448868002bde921846cf9c75ed72c1248da9a4
+SHA256: 36ef102723a10d171bd7fdb902fb6cb28ce339be0d7b0f7a28de6a1fb5256607
 Section: x11
 Priority: optional
 Homepage: https://github.com/X11Libre
@@ -1598,21 +1598,21 @@ Description: XLibre X server -- Intel i8xx, i9xx display driver
 
 Package: xserver-xlibre-video-intel-dbgsym
 Source: xserver-xlibre-video-intel
-Version: 2:3.0.0.5-1
+Version: 2:3.0.0.6-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: apebl <a@pebl.cc>
 Installed-Size: 2931
-Depends: xserver-xlibre-video-intel (= 2:3.0.0.5-1)
-Filename: ./xserver-xlibre-video-intel-dbgsym_3.0.0.5-1_amd64.deb
-Size: 2820932
-MD5sum: b2afbb00b7faa569f22637708958c645
-SHA1: 90f00433c4ce2ccb8ae690526569c44fba0152e9
-SHA256: f4e539979a2519819ea75598b02092196606b20768a80f9eb1356bd1dab42f59
+Depends: xserver-xlibre-video-intel (= 2:3.0.0.6-1)
+Filename: ./xserver-xlibre-video-intel-dbgsym_3.0.0.6-1_amd64.deb
+Size: 2820844
+MD5sum: e9919e2343d9822c9a1b9e87a02aa96b
+SHA1: 681dd0938bc37649c1373cea5cc317e1841f46e8
+SHA256: 0ca16764b6fee43b941a3ee60ab7d262db05988367dc2a4575fd2c4c0e4fb857
 Section: debug
 Priority: optional
 Description: debug symbols for xserver-xlibre-video-intel
-Build-Ids: 0c95a513beff2faf90454d564fc4a131728b99bd 5a0557dd1330e31b03b3b0f149e5add715563ab2 8187b47042df6de76be0fc6c80f7e91324c54560 e3e02ba2f3135c8765559b4e1ef4e71a6247b799
+Build-Ids: 0c95a513beff2faf90454d564fc4a131728b99bd 3e0043f4f5626a05dce9f4c15eb6328d3e2ef9f0 5a0557dd1330e31b03b3b0f149e5add715563ab2 8187b47042df6de76be0fc6c80f7e91324c54560
 
 Package: xserver-xlibre-video-nouveau
 Version: 2:1.0.18.4-1
