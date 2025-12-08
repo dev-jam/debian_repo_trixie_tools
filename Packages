@@ -504,6 +504,35 @@ Priority: optional
 Description: debug symbols for libkwin6
 Build-Ids: 9f96b543df6dc5919813d1ea2980572626aeb4dc
 
+Package: memtest86+
+Version: 8.00-3~bpo13+1
+Architecture: amd64
+Maintainer: Fabio Fantoni <fantonifabio@tiscali.it>
+Installed-Size: 12473
+Depends: grub-common
+Suggests: grub-efi | grub-pc, memtester, mtools
+Filename: ./memtest86+_8.00-3~bpo13+1_amd64.deb
+Size: 142484
+MD5sum: b2507432f956e5726778e9a2bb0131ce
+SHA1: 4b7446af31d17195f47fed0511b3b021891e5985
+SHA256: 80ca2be50140809e9475e8958024c1d7656b84f4eb489b39331541717b408697
+Section: misc
+Priority: optional
+Homepage: https://www.memtest.org/
+Description: stand-alone memory tester for x86 and x86-64
+ Memtest86+ provides a more thorough memory check than
+ that provided by BIOS memory tests. Can be loaded and run either
+ directly by a PC BIOS (legacy or UEFI) or via an intermediate
+ bootloader.
+ .
+ This tester runs independently of any OS - it is run at computer
+ boot-up, so that it can test *all* of your memory.  You may want to
+ look at `memtester', which allows one to test your memory within Linux,
+ but this one won't be able to test your whole RAM.
+ .
+ It can output a list of bad RAM regions usable by the BadRAM kernel
+ patch, so that you can still use your old RAM with one or two bad bits.
+
 Package: par2-turbo
 Source: par2cmdline-turbo
 Version: 1.1.1-0ubuntu1~jcfp1~24.04
