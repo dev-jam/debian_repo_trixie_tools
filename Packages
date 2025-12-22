@@ -614,6 +614,31 @@ Description: program for speech analysis and synthesis (documentation)
  This package provides the HTML form of documentation for Praat
  (essentially a local copy of the website at praat.org).
 
+Package: profile-sync-daemon
+Version: 6.50-1+bsr1
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 111
+Depends: rsync, init-system-helpers (>= 1.52)
+Suggests: libpam-systemd, systemd-sysv
+Filename: ./profile-sync-daemon_6.50-1+bsr1_all.deb
+Size: 22784
+MD5sum: 7a827832cba27ffff5333d0a53736a45
+SHA1: 1b5f331d0b688745d911adbdf0e64f96ba53c51d
+SHA256: 0bd2f551324fdf012aafdc09f286a1c2d3c0af552a46d392c0a6708cf8af587e
+Section: utils
+Priority: optional
+Homepage: https://github.com/graysky2/profile-sync-daemon
+Description: Symlink and sync browser profile directories into RAM
+ Profile-sync-daemon (psd) is a tiny pseudo-daemon designed
+ to manage your browsers profile in tmpfs and periodically
+ sync it back to disk.
+ .
+ This is accomplished by symlinking and the innovative use
+ of rsync to maintain a backup and synchronization between
+ tmpfs and disk. One of the major design goals of psd is a
+ completely transparent user experience.
+
 Package: python3-betteradbsync
 Version: 0:1.4.0-2~w2d0
 Architecture: all
