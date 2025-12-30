@@ -48,16 +48,16 @@ Description: fast, cross-platform audio editor (data)
  This package contains the architecture-independent data files.
 
 Package: birdtray
-Version: 1.11.0+ds-0.1~bsr
+Version: 1.11.4+ds-0.1~mx25~bpo13+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 1276
 Depends: thunderbird, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5t64 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6
-Filename: ./birdtray_1.11.0+ds-0.1~bsr_amd64.deb
-Size: 378852
-MD5sum: 6e2ce05ff9fa44b8f504e501a8da1722
-SHA1: 02ff975cc0a780a7c7b2a1a18334ad0602c99131
-SHA256: 735ca7fdd042113e176cd2e9c0e18973f10edda00fc18b2049536e2eeaa30fdd
+Filename: ./birdtray_1.11.4+ds-0.1~mx25~bpo13+1_amd64.deb
+Size: 378084
+MD5sum: 79e2a8a9b8df4aee559f20cf337eb992
+SHA1: 86fdd7b126e67d479fbd817b05575d901cd526db
+SHA256: 4f8b83c17d99c713dc9339b3e069abde8ca41ad87f66350256a18dabc2a77259
 Section: mail
 Priority: optional
 Multi-Arch: foreign
