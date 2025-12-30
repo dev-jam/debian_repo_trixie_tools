@@ -1,15 +1,15 @@
 Package: audacity
-Version: 3.7.5+dfsg-3~bpo13+1
+Version: 3.7.7+dfsg-1~bpo13+1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 30734
-Depends: audacity-data (= 3.7.5+dfsg-3~bpo13+1), libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libexpat1 (>= 2.0.1), libflac++11 (>= 1.5.0), libflac14 (>= 1.5.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0t64 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0t64 (>= 0.1~svn20101010), libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 14), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3t64 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1t64 (>= 3.2.8+dfsg), libwxgtk3.2-1t64 (>= 3.2.8+dfsg)
+Installed-Size: 30922
+Depends: audacity-data (= 3.7.7+dfsg-1~bpo13+1), libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libexpat1 (>= 2.0.1), libflac++11 (>= 1.5.0), libflac14 (>= 1.5.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0t64 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0t64 (>= 0.1~svn20101010), libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 14), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3t64 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1t64 (>= 3.2.8+dfsg), libwxgtk3.2-1t64 (>= 3.2.8+dfsg)
 Suggests: ladspa-plugin
-Filename: ./audacity_3.7.5+dfsg-3~bpo13+1_amd64.deb
-Size: 8198844
-MD5sum: 8b0fac3caf7f97a57759d0be54aea66e
-SHA1: 8ff8bd9a1bff38f62089faf124caaeccb65b93d3
-SHA256: 9ec6802ea90fe42adb4a2e87fab7ca41b6110a2c3c805292083deb5a551c53e2
+Filename: ./audacity_3.7.7+dfsg-1~bpo13+1_amd64.deb
+Size: 8306196
+MD5sum: b43f77fe57425387fd067f62aeba8b25
+SHA1: fcea60e0ca9a80eb5e6633bbb20404ac676a7fb7
+SHA256: 5095f06351d32eea45f67661309c012f37414c77e7f382f19f2cb835d469558c
 Section: sound
 Priority: optional
 Homepage: https://www.audacityteam.org/
@@ -24,16 +24,16 @@ Description: fast, cross-platform audio editor
 
 Package: audacity-data
 Source: audacity
-Version: 3.7.5+dfsg-3~bpo13+1
+Version: 3.7.7+dfsg-1~bpo13+1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 15820
+Installed-Size: 16133
 Recommends: audacity
-Filename: ./audacity-data_3.7.5+dfsg-3~bpo13+1_all.deb
-Size: 2469996
-MD5sum: 598d7629797d5d4626fdbaa87ce802b0
-SHA1: b1e92cf0983500b7c58bf41481e41ceb727acbf9
-SHA256: f8d9489006610294537bda946ce54cf82c8087a44e279137185cef48525d397f
+Filename: ./audacity-data_3.7.7+dfsg-1~bpo13+1_all.deb
+Size: 2510864
+MD5sum: 523326c15dd5458b8cb84431b7b04f49
+SHA1: fbd6bd78daebae69fa98ff845729eec484bfee6f
+SHA256: b139d598724288db3354eb9f648a341dde53736d46c58a2850adfc093f609a1a
 Section: sound
 Priority: optional
 Multi-Arch: foreign
@@ -75,6 +75,35 @@ Description: system tray notifications for Thunderbird
  likely that support for Thunderbird XUL extensions will be dropped soon,
  possibly by the time you read these words.
 Original-Maintainer: Adam Borowski <kilobyte@angband.pl>
+
+Package: bleachbit
+Version: 5.0.2-1~bpo13+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 3048
+Depends: gir1.2-gtk-3.0, gir1.2-notify-0.7, pkexec, python3-chardet, python3-gi, python3-psutil, python3-requests, python3:any
+Recommends: gir1.2-ayatanaappindicator3-0.1
+Filename: ./bleachbit_5.0.2-1~bpo13+1_all.deb
+Size: 503584
+MD5sum: a0aff074f15abce7cf173574dc3173a9
+SHA1: 880f4b83378af8b9371c84f55b58ce56b2f11255
+SHA256: c00b31334ee0c7a84b8a8ea8579f06d25c75dff73ee0e7228432d4c4f21c3fb8
+Section: admin
+Priority: optional
+Homepage: https://www.bleachbit.org/
+Description: delete unnecessary files from the system
+ BleachBit deletes unnecessary files to free valuable disk space, maintain
+ privacy, and remove junk. It removes cache, Internet history, temporary files,
+ cookies, and broken shortcuts.
+ .
+ It handles cleaning of Adobe Reader, Bash, Beagle, Epiphany, Firefox, Flash,
+ GIMP, Google Earth, Java, KDE, OpenOffice.org, Opera, RealPlayer, rpmbuild,
+ Second Life Viewer, VIM, XChat, and more.
+ .
+ Beyond simply erasing junk files, BleachBit wipes free disk space (to hide
+ previously deleted files for privacy and to improve compression of images),
+ vacuums Firefox databases (to improve performance without deleting data), and
+ securely shreds arbitrary files.
 
 Package: ccd2iso
 Version: 0.3-8~bpo13+1
@@ -796,18 +825,18 @@ Description: image viewer/editor for KDE
  functions.
 
 Package: strawberry
-Version: 1.2.15-1~bpo13+1
+Version: 1.2.16-1~bpo13+1
 Architecture: amd64
-Maintainer: Peter Blackman <peter@pblackman.plus.com>
-Installed-Size: 18609
+Maintainer: Peter Blackman <peterb@debian.org>
+Installed-Size: 18828
 Depends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libqt6sql6-sqlite, qt6-qpa-plugins, sqlite3, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpod4t64 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu76 (>= 76.1-1~), libkdsingleapplication-qt6-1.0 (>= 1.1.0), libmtp9t64 (>= 1.1.0), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6
 Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio
 Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, qt6ct
-Filename: ./strawberry_1.2.15-1~bpo13+1_amd64.deb
-Size: 5987012
-MD5sum: 58c59a9d749645f932983ca950c83c6a
-SHA1: f3462de69d77a7dc6c2edb5829974c9ba11f9cc8
-SHA256: 34997e51d131fe51f178e4c6de44a85c27a930a6665e51e59c73b8534a722f41
+Filename: ./strawberry_1.2.16-1~bpo13+1_amd64.deb
+Size: 6019052
+MD5sum: 09a6cca4e5ab67bea71b323387ef3973
+SHA1: c5e6f60e73b70a846b3606c9cabf441f3397f147
+SHA256: 1c3ed67e7be98aed9547d6e2451de6d91d5801bbf888f2e198ef97b2bcc575d4
 Section: sound
 Priority: optional
 Homepage: https://strawberrymusicplayer.org
@@ -828,8 +857,7 @@ Description: audio player and music collection organizer
   - Automatically retrieve tags from MusicBrainz
   - Album cover art from Last.fm, Musicbrainz, Discogs, Musixmatch, Deezer,
   -   Tidal, Qobuz and Spotify
-  - Song lyrics from Musixmatch, ChartLyrics, lyrics.ovh, lololyrics.com,
-     songlyrics.com, azlyrics.com. elyrics.net, letras.mus.br and LyricFind
+  - Lyrics from multiple sources
   - Audio analyzer
   - Audio equalizer
   - Transfer music to mass-storage USB players, MTP compatible devices
