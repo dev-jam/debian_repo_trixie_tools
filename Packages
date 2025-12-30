@@ -183,24 +183,21 @@ Description: private libraries for digiKam plugins
  installed in a private library path.
 
 Package: fastfetch
-Version: 2.50.2+dfsg-1~bpo13+1
+Version: 2.56.1
 Architecture: amd64
-Maintainer: Hiago De Franco <hiagofranco@gmail.com>
-Installed-Size: 1879
-Depends: libc6 (>= 2.38), libyyjson0 (>= 0.10.0+ds)
-Filename: ./fastfetch_2.50.2+dfsg-1~bpo13+1_amd64.deb
-Size: 565784
-MD5sum: 780819e12339fb5d1c1e8197089eb3c6
-SHA1: c03b9094b6f775da3d3c7adfa6d2b160d6b54b32
-SHA256: 518a36c32385ea8b60e6bd63c182bf36c69fb433eceab249f17bf44690cee259
-Section: utils
+Maintainer: Carter Li <zhangsongcui@live.cn>
+Installed-Size: 14640
+Depends: libc6 (>= 2.35)
+Filename: ./fastfetch_2.56.1_amd64.deb
+Size: 5460274
+MD5sum: 3287046492bb365a12b18f52bf1b2450
+SHA1: e6a39a874aff749346bcb1b60a28ec791a579003
+SHA256: 5c765e77255ffe90ad89324fd11b9559ea34466594158544785446583dd0edc9
+Section: devel
 Priority: optional
-Multi-Arch: foreign
 Homepage: https://github.com/fastfetch-cli/fastfetch
-Description: neofetch-like tool for fetching system information
- Fastfetch is a neofetch-like tool for fetching system information and
- displaying them in a pretty way. It is written mainly in C, with
- performance and customizability in mind.
+Description: Fast neofetch-like system information tool
+ fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 
 Package: kde-servicemenu-reimage
 Version: 2.6.4
@@ -263,6 +260,22 @@ Description: Manipulate images and their metadata.
  Drop shadow
  .
  Copyright (C) 2018-2019 Giuseppe Benigno <giuseppe.benigno(at)gmail.com>
+
+Package: kdiskmark
+Version: 3.2.0
+Architecture: amd64
+Maintainer: jonmagon@gmail.com
+Installed-Size: 922
+Depends: fio (>= 3.1), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./kdiskmark_3.2.0_amd64.deb
+Size: 281094
+MD5sum: cf7359c4d51803df74f1ffb9a8320756
+SHA1: 7efd9a5c7f1593c517e68258dd8fe609331c33b2
+SHA256: 9a055f1f7f9c3f96c5e36f6663e1fc64c2ac04951e06118024ddbbfc99b19e76
+Section: devel
+Priority: optional
+Homepage: https://github.com/JonMagon/KDiskMark
+Description: A simple open source disk benchmark tool for Linux distros
 
 Package: kwin-common
 Source: kwin
