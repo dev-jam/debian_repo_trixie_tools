@@ -1275,16 +1275,16 @@ Description: debug symbols for xserver-xlibre-xvfb
 Build-Ids: 83e02691989476835ab9a95a9309de9d628b6bd3
 
 Package: yt-dlp
-Version: 0:2026.1.29-1~w2d0
+Version: 0:2026.2.4-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 10957
+Installed-Size: 10962
 Depends: python3 (>= 3.10~), python3:any
-Filename: ./yt-dlp_2026.1.29-1~w2d0_all.deb
-Size: 1886552
-MD5sum: 5d38f9639d7d87d4513969b9396e936c
-SHA1: c260ea6408944df407341e0f5608dc47fa60eb7e
-SHA256: 976e71e1fd729edcccefc69a35eb2f8fb06d7a31e07aafa159211c1b92a60113
+Filename: ./yt-dlp_2026.2.4-1~w2d0_all.deb
+Size: 1887612
+MD5sum: bf0123f431fb770932a9aabf263003e2
+SHA1: 06583589fab6dcc6cc049b351caccb42ade84845
+SHA256: 73c423a075b778a175f0aac01d50d15aacb8a28a002d25579ba6b68db900851a
 Section: python
 Priority: optional
 Description: A feature-rich command-line audio/video downloader
