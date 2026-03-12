@@ -291,20 +291,24 @@ Description: Manipulate images and their metadata.
  Copyright (C) 2018-2019 Giuseppe Benigno <giuseppe.benigno(at)gmail.com>
 
 Package: kdiskmark
-Version: 3.2.0
+Version: 3.2.0+ds-1~bpo13+1
 Architecture: amd64
-Maintainer: jonmagon@gmail.com
-Installed-Size: 922
-Depends: fio (>= 3.1), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
-Filename: ./kdiskmark_3.2.0_amd64.deb
-Size: 281094
-MD5sum: cf7359c4d51803df74f1ffb9a8320756
-SHA1: 7efd9a5c7f1593c517e68258dd8fe609331c33b2
-SHA256: 9a055f1f7f9c3f96c5e36f6663e1fc64c2ac04951e06118024ddbbfc99b19e76
-Section: devel
+Maintainer: Dmitry Ilyich Sidorov <jonmagon@gmail.com>
+Installed-Size: 569
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), fio
+Filename: ./kdiskmark_3.2.0+ds-1~bpo13+1_amd64.deb
+Size: 176736
+MD5sum: e86495eca2bccb22b26fdfc344bd02a0
+SHA1: 72fd14b09c5dd609737436a17a34bfe1d12a3b1d
+SHA256: 5987d4ef54f22c15538240f91bea2c0c731144c21693191faf7c3ae7be43aae9
+Section: utils
 Priority: optional
 Homepage: https://github.com/JonMagon/KDiskMark
-Description: A simple open source disk benchmark tool for Linux distros
+Description: simple disk benchmark tool
+ This is an HDD and SSD benchmark tool with a very friendly
+ graphical user interface. KDiskMark with its presets and powerful
+ GUI calls Flexible I/O Tester and handles the output to provide an
+ easy to view and interpret comprehensive benchmark result.
 
 Package: kwin-common
 Source: kwin
@@ -576,17 +580,17 @@ Description: stand-alone memory tester for x86 and x86-64
  patch, so that you can still use your old RAM with one or two bad bits.
 
 Package: praat
-Version: 6.4.52+dfsg-1~bpo13+1
+Version: 6.4.60+dfsg-1~bpo13+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 114274
+Installed-Size: 114372
 Depends: file, oss-compat, libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.21.5), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 14)
 Suggests: libasound2-plugins
-Filename: ./praat_6.4.52+dfsg-1~bpo13+1_amd64.deb
-Size: 30540592
-MD5sum: 1df47d53b92ddc1729cec863beff19a0
-SHA1: 9c22190ff4c1d06e89ddb615a61ee63bd7d8399e
-SHA256: 1ed7634dccdb3412244fece6e770a4c57c280bc63387775e65eceba36eedd26e
+Filename: ./praat_6.4.60+dfsg-1~bpo13+1_amd64.deb
+Size: 30438776
+MD5sum: 873a1d746607bfbb3b32ff849dc3dfd4
+SHA1: 3deea29025941183d892c7ef656e15e563403dc3
+SHA256: 38218e896a540a460c905e6384e252e22fc9e22c986d5da90453197b1611d1ac
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -602,15 +606,15 @@ Description: program for speech analysis and synthesis
 
 Package: praat-doc
 Source: praat
-Version: 6.4.52+dfsg-1~bpo13+1
+Version: 6.4.60+dfsg-1~bpo13+1
 Architecture: all
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 26381
-Filename: ./praat-doc_6.4.52+dfsg-1~bpo13+1_all.deb
-Size: 15698988
-MD5sum: 8294edca97d6bc204de84d1a61e32bc2
-SHA1: 835316ed781227673df062092b4dbacb1c6c89c0
-SHA256: c1518097455502ebc2e3ab23c4fedec69bd58e849bc5885658bbc46febaa94e0
+Installed-Size: 26420
+Filename: ./praat-doc_6.4.60+dfsg-1~bpo13+1_all.deb
+Size: 15728808
+MD5sum: afd472c49e920433f189f433a8d5c240
+SHA1: 55cda746bba7f037e4a7df48a15b56f74dddb711
+SHA256: 24bdf59e49e16d319385a1e3de93a3d2533a20de95db363e0e0a5d0fc47961b8
 Section: doc
 Priority: optional
 Multi-Arch: foreign
@@ -753,17 +757,17 @@ Description: Linux audio performance analyzer
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: s-tui
-Version: 1.2.0-1~bpo13+1
+Version: 1.3.0-1~bpo13+1
 Architecture: all
 Maintainer: Jonathan Carter <jcc@debian.org>
-Installed-Size: 167
+Installed-Size: 165
 Depends: python3-psutil, python3-urwid, python3:any
 Suggests: stress-ng | stress
-Filename: ./s-tui_1.2.0-1~bpo13+1_all.deb
-Size: 34328
-MD5sum: 80983d4c5df5418dab05f19a82d792c5
-SHA1: 49ac5ac5f397963469273e4b5f5556e0ab4c435e
-SHA256: 1335c92a2b7ee0b3ae424ec7b33fe2858662e9ae77c0e880f5a0452503de87c8
+Filename: ./s-tui_1.3.0-1~bpo13+1_all.deb
+Size: 34892
+MD5sum: 14f70c3f244947022b9c917ac37d0e82
+SHA1: a83d6cb3223c33b83caa70a0276d695e55d69427
+SHA256: 6c4ddc8818907115e9d18c55316121d6fe792659d9b9f8b19643e9de9238791e
 Section: utils
 Priority: optional
 Homepage: https://github.com/amanusk/s-tui
@@ -797,18 +801,18 @@ Description: image viewer/editor for KDE
  functions.
 
 Package: strawberry
-Version: 1.2.16-1~bpo13+1
+Version: 1.2.18-1~bpo13+1
 Architecture: amd64
 Maintainer: Peter Blackman <peterb@debian.org>
-Installed-Size: 18828
-Depends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libqt6sql6-sqlite, qt6-qpa-plugins, sqlite3, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpod4t64 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu76 (>= 76.1-1~), libkdsingleapplication-qt6-1.0 (>= 1.1.0), libmtp9t64 (>= 1.1.0), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6
+Installed-Size: 19046
+Depends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libqt6sql6-sqlite, qt6-qpa-plugins, sqlite3, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpod4t64 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu76 (>= 76.1-1~), libkdsingleapplication-qt6-1.0 (>= 1.2.0), libmtp9t64 (>= 1.1.0), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6
 Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio
 Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, qt6ct
-Filename: ./strawberry_1.2.16-1~bpo13+1_amd64.deb
-Size: 6019052
-MD5sum: 09a6cca4e5ab67bea71b323387ef3973
-SHA1: c5e6f60e73b70a846b3606c9cabf441f3397f147
-SHA256: 1c3ed67e7be98aed9547d6e2451de6d91d5801bbf888f2e198ef97b2bcc575d4
+Filename: ./strawberry_1.2.18-1~bpo13+1_amd64.deb
+Size: 6083776
+MD5sum: 53728cc89246d0ae5cb3ea93438e9364
+SHA1: de707da8509c237eaff080f0aa1a5739b005bd6b
+SHA256: 7655b9f0433c9531cdb6c415c95629cc43f8d6a4daab500c81506719f45f5f49
 Section: sound
 Priority: optional
 Homepage: https://strawberrymusicplayer.org
@@ -1273,20 +1277,4 @@ Section: debug
 Priority: optional
 Description: debug symbols for xserver-xlibre-xvfb
 Build-Ids: 6f71e0211eb44aefe3d7ad84c967d476db6edcb3
-
-Package: yt-dlp
-Version: 0:2026.2.4-1~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 10962
-Depends: python3 (>= 3.10~), python3:any
-Filename: ./yt-dlp_2026.2.4-1~w2d0_all.deb
-Size: 1887612
-MD5sum: bf0123f431fb770932a9aabf263003e2
-SHA1: 06583589fab6dcc6cc049b351caccb42ade84845
-SHA256: 73c423a075b778a175f0aac01d50d15aacb8a28a002d25579ba6b68db900851a
-Section: python
-Priority: optional
-Description: A feature-rich command-line audio/video downloader
- This package was automatically generated from the upstream wheel by wheel2deb.
 
