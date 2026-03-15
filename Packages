@@ -579,6 +579,23 @@ Description: stand-alone memory tester for x86 and x86-64
  It can output a list of bad RAM regions usable by the BadRAM kernel
  patch, so that you can still use your old RAM with one or two bad bits.
 
+Package: plasma-applet-appgrid
+Version: 1.2.1-1debian13
+Architecture: amd64
+Maintainer: Jason Scurtu <jscurtu@gmail.com>
+Depends: plasma-workspace, libkf6service6, libkf6i18n6
+Filename: ./plasma-applet-appgrid_1.2.1-1debian13_trixie_amd64.deb
+Size: 129356
+MD5sum: 84a824a2d683d0e39c1891bfe0f7a32a
+SHA1: d7e648254e86cbd0a76bf5d065e2db21791c47f0
+SHA256: aab9488db4c6312ab9ec43aac54ad1458e531576227e6092aa333a11e807ae19
+Section: kde
+Priority: optional
+Homepage: https://github.com/xarbit/plasma6-applet-appgrid
+Description: A modern fullscreen application launcher for KDE Plasma
+ A modern fullscreen application launcher for KDE Plasma,
+ inspired by macOS Launchpad and COSMIC.
+
 Package: praat
 Version: 6.4.60+dfsg-1~bpo13+1
 Architecture: amd64
