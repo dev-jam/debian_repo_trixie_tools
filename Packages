@@ -579,6 +579,62 @@ Description: stand-alone memory tester for x86 and x86-64
  It can output a list of bad RAM regions usable by the BadRAM kernel
  patch, so that you can still use your old RAM with one or two bad bits.
 
+Package: par2-turbo
+Source: par2cmdline-turbo
+Version: 1.4.0-4~bpo13+1
+Architecture: amd64
+Maintainer: Jeroen Ploemen <jcfp@debian.org>
+Installed-Size: 1032
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
+Conflicts: par2
+Provides: par2
+Filename: ./par2-turbo_1.4.0-4~bpo13+1_amd64.deb
+Size: 335352
+MD5sum: 08f0a7c62dc515b738249bb8b40bd5f9
+SHA1: d19b0dbbfd1decfa037008b83fb2d782560d87e9
+SHA256: 660ec1db2ddba13c1d53be13e13ba73d65ce899958ec3ef1c6abaa4f0a8e4ff5
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/animetosho/par2cmdline-turbo
+Description: PAR 2.0 compatible file verification and repair tool (turbo)
+ Par2-turbo is a fork of par2cmdline which replaces core computation
+ routines with ParPar’s processing backend, improving par2cmdline’s
+ performance on x86/ARM platforms.
+ .
+ Par2cmdline-turbo aims to keep close with its upstream and mostly differs in
+ the following areas related to performance:
+  * GF16, MD5 and CRC32 computation, using ParPar’s implementation;
+  * ParPar’s internal checksumming to detect RAM errors during GF16
+    computation;
+  * ParPar’s stitched hashing approach;
+  * C++11 threads in place of par2cmdline's OpenMP dependency.
+ .
+ The package provides the par2 command line utility for creating andusing
+ PAR2 files to detect and repair damage in data files. It is most commonly
+ used as part of backup systems as well as on Usenet. In case files in a
+ recovery set get damaged (e.g. while transmitted over a network or stored
+ on a faulty disk) the program can read the damaged files and the (possibly
+ damaged) PAR2 files, and regenerate the original input files.
+
+Package: par2-turbo-dbgsym
+Source: par2cmdline-turbo
+Version: 1.4.0-4~bpo13+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jeroen Ploemen <jcfp@debian.org>
+Installed-Size: 4694
+Depends: par2-turbo (= 1.4.0-4~bpo13+1)
+Filename: ./par2-turbo-dbgsym_1.4.0-4~bpo13+1_amd64.deb
+Size: 4518624
+MD5sum: e7d2c49542b49f7faad13df845201f8a
+SHA1: 679836384a79c8189b96231c0d6f08098923bc07
+SHA256: 96833f01dec4b434675ee8e9a97b9660f0b3b91b789b631c9578782778ed8c31
+Section: debug
+Priority: optional
+Description: debug symbols for par2-turbo
+Build-Ids: 1f62c0cc879d40b1d880f79f665bf063118a8009
+
 Package: plasma-applet-appgrid
 Version: 1.2.1-1debian13
 Architecture: amd64
