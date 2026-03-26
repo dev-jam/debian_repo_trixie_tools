@@ -653,17 +653,17 @@ Description: A modern fullscreen application launcher for KDE Plasma
  inspired by macOS Launchpad and COSMIC.
 
 Package: praat
-Version: 6.4.60+dfsg-1~bpo13+1
+Version: 6.4.62+dfsg-1~bpo13+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 114372
+Installed-Size: 116317
 Depends: file, oss-compat, libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.21.5), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 14)
 Suggests: libasound2-plugins
-Filename: ./praat_6.4.60+dfsg-1~bpo13+1_amd64.deb
-Size: 30438776
-MD5sum: 873a1d746607bfbb3b32ff849dc3dfd4
-SHA1: 3deea29025941183d892c7ef656e15e563403dc3
-SHA256: 38218e896a540a460c905e6384e252e22fc9e22c986d5da90453197b1611d1ac
+Filename: ./praat_6.4.62+dfsg-1~bpo13+1_amd64.deb
+Size: 32045768
+MD5sum: bae78e6ed92615f199c82317765e3b90
+SHA1: 0adcd5f0b18f36255716c6477cb2f0dfd9b33d53
+SHA256: 916240f36a6b21ba9d6de89d2b4935ba4ec41464f5a0f2647d9da4970bff738c
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -679,15 +679,15 @@ Description: program for speech analysis and synthesis
 
 Package: praat-doc
 Source: praat
-Version: 6.4.60+dfsg-1~bpo13+1
+Version: 6.4.62+dfsg-1~bpo13+1
 Architecture: all
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 26420
-Filename: ./praat-doc_6.4.60+dfsg-1~bpo13+1_all.deb
-Size: 15728808
-MD5sum: afd472c49e920433f189f433a8d5c240
-SHA1: 55cda746bba7f037e4a7df48a15b56f74dddb711
-SHA256: 24bdf59e49e16d319385a1e3de93a3d2533a20de95db363e0e0a5d0fc47961b8
+Installed-Size: 26448
+Filename: ./praat-doc_6.4.62+dfsg-1~bpo13+1_all.deb
+Size: 15731816
+MD5sum: 389d901b2275f0ac86d9744cf36aac6f
+SHA1: 8e6a7fbd345dbd05a849494d2553d5a10949a482
+SHA256: f5419416d22e310f5ee54ede3339ebc89ce0de3d3ace1399608002583e18bd5d
 Section: doc
 Priority: optional
 Multi-Arch: foreign
