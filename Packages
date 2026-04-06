@@ -706,17 +706,17 @@ Description: program for speech analysis and synthesis (documentation)
  (essentially a local copy of the website at praat.org).
 
 Package: profile-sync-daemon
-Version: 6.50-1+bsr1
+Version: 7.00-1+bsr1
 Architecture: all
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 111
-Depends: rsync, init-system-helpers (>= 1.52)
+Installed-Size: 113
+Depends: rsync, fuse-overlayfs
 Suggests: libpam-systemd, systemd-sysv
-Filename: ./profile-sync-daemon_6.50-1+bsr1_all.deb
-Size: 22784
-MD5sum: 7a827832cba27ffff5333d0a53736a45
-SHA1: 1b5f331d0b688745d911adbdf0e64f96ba53c51d
-SHA256: 0bd2f551324fdf012aafdc09f286a1c2d3c0af552a46d392c0a6708cf8af587e
+Filename: ./profile-sync-daemon_7.00-1+bsr1_all.deb
+Size: 21036
+MD5sum: c50d9156011412c17287e8e4eb41116b
+SHA1: 4bdbeee9494a6e30c4476cd44ced8cac44bce01b
+SHA256: 54a98f36176192c9df4920451cef0b99edf3bc2cd5210edddd6f13b7a1de3b8f
 Section: utils
 Priority: optional
 Homepage: https://github.com/graysky2/profile-sync-daemon
