@@ -874,18 +874,18 @@ Description: image viewer/editor for KDE
  functions.
 
 Package: strawberry
-Version: 1.2.18-1~bpo13+1
+Version: 1.2.19-1~bpo13+1
 Architecture: amd64
 Maintainer: Peter Blackman <peterb@debian.org>
-Installed-Size: 19046
+Installed-Size: 19242
 Depends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libqt6sql6-sqlite, qt6-qpa-plugins, sqlite3, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpod4t64 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu76 (>= 76.1-1~), libkdsingleapplication-qt6-1.0 (>= 1.2.0), libmtp9t64 (>= 1.1.0), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6
 Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio
 Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, qt6ct
-Filename: ./strawberry_1.2.18-1~bpo13+1_amd64.deb
-Size: 6083776
-MD5sum: 53728cc89246d0ae5cb3ea93438e9364
-SHA1: de707da8509c237eaff080f0aa1a5739b005bd6b
-SHA256: 7655b9f0433c9531cdb6c415c95629cc43f8d6a4daab500c81506719f45f5f49
+Filename: ./strawberry_1.2.19-1~bpo13+1_amd64.deb
+Size: 6067432
+MD5sum: a184208f6fceb19cee618c6725617285
+SHA1: 904a70cf2820e2c52103a2c5bb777c044f70f18b
+SHA256: 118745971aff44de43862bb1cae66478df0541adffd3364ab927d616d7d22e18
 Section: sound
 Priority: optional
 Homepage: https://strawberrymusicplayer.org
