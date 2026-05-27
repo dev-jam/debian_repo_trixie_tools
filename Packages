@@ -874,16 +874,16 @@ Description: image viewer/editor for KDE
  functions.
 
 Package: simplescreenrecorder
-Version: 0.4.4-7~bpo13+1
+Version: 0.4.4-7~bpo13+2
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 3785
 Depends: libasound2t64 (>= 1.0.16), libavcodec61 (>= 7:7.1.4), libavformat61 (>= 7:7.1.4), libavutil59 (>= 7:7.1.4), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpulse0 (>= 0.99.1), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libstdc++6 (>= 14), libswscale8 (>= 7:7.1.4), libv4l-0t64 (>= 0.5.0), libx11-6 (>= 2:1.2.99.901), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), simplescreenrecorder-lib
-Filename: ./simplescreenrecorder_0.4.4-7~bpo13+1_amd64.deb
-Size: 1343440
-MD5sum: 15138ead7fb4bd6bd7c721da6eca7874
-SHA1: d082d4c7beafeeca8da4b69ad3595b65e78ba351
-SHA256: f41c62f9c5f53dfab83b0a0856b67c3d3e81e4cbf66bc1e111f258e98e5dcd2b
+Filename: ./simplescreenrecorder_0.4.4-7~bpo13+2_amd64.deb
+Size: 1343680
+MD5sum: 65ba076142cd37002c15e8d7d55ad34d
+SHA1: 7c863a1e2312a543c507853d291b02a0deeb6dd1
+SHA256: 6e795df45348ff6753ff8d5b4be626e7eb13da7b9ca7439450fc964271e1637c
 Section: video
 Priority: optional
 Homepage: https://www.maartenbaert.be/simplescreenrecorder/
@@ -912,16 +912,16 @@ Description: Feature-rich screen recorder for X11 and OpenGL
 
 Package: simplescreenrecorder-lib
 Source: simplescreenrecorder
-Version: 0.4.4-7~bpo13+1
+Version: 0.4.4-7~bpo13+2
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 98
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglu1-mesa | libglu1, libglx0, libopengl0, libstdc++6 (>= 13.1), libx11-6, libxfixes3
-Filename: ./simplescreenrecorder-lib_0.4.4-7~bpo13+1_amd64.deb
-Size: 31612
-MD5sum: 858a59670b16527e9a554b46f95badaa
-SHA1: a0969c2de2358d77cc57d98ba4ed30e6dd8173f2
-SHA256: 31c20d6f77f646096c4c6cf171b5cf8d58b044ac4e73c58d50b436da126a16d7
+Filename: ./simplescreenrecorder-lib_0.4.4-7~bpo13+2_amd64.deb
+Size: 31576
+MD5sum: d58dc3c2d6ada7fd30882672ee45403b
+SHA1: 47754e8eae0885c4b24eabbc3aa8ae7b18e48c6e
+SHA256: a56d2e479f645178679a1ef051d1c0d349b8dcf530c26eb5b9dec68f52205479
 Section: libs
 Priority: optional
 Multi-Arch: same
