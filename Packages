@@ -124,18 +124,18 @@ Description: Converter from CloneCD disc image format to standard ISO
  format understood by most Free Software CD writing programs.
 
 Package: digikam
-Version: 4:9.0.0-2~bpo13+1
+Version: 4:9.1.0-1~bpo13+1
 Architecture: amd64
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Installed-Size: 310
-Depends: digikam-private-libs (= 4:9.0.0-2~bpo13+1), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libmagick++-7.q16-5 (>= 8:7.1.1.21), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), perl:any, libqt6sql6-sqlite, libqt6sql6-mysql, digikam-data (= 4:9.0.0-2~bpo13+1)
+Installed-Size: 324
+Depends: digikam-private-libs (= 4:9.1.0-1~bpo13+1), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libmagick++-7.q16-5 (>= 8:7.1.1.21), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), perl:any, libqt6sql6-sqlite, libqt6sql6-mysql, digikam-data (= 4:9.1.0-1~bpo13+1)
 Recommends: www-browser, ffmpegthumbs
 Suggests: libimage-exiftool-perl, breeze-icon-theme, systemsettings
-Filename: ./digikam_9.0.0-2~bpo13+1_amd64.deb
-Size: 94880
-MD5sum: 2b79f918351d21f1019d0e8331a72f9f
-SHA1: 24aff50f2291d58d05a8ec7c3046a13f1ebd6194
-SHA256: e4e82334b1a0a89c680cd189efbfef8429201f4aca620110f4d4ddf84838dd90
+Filename: ./digikam_9.1.0-1~bpo13+1_amd64.deb
+Size: 101844
+MD5sum: 81c940dc7fc487fa0df56c5fcbf07592
+SHA1: 4783fe815fe5c00edd8632efab8c545695427b17
+SHA256: 3ac0e12a0bc0030ee5b2417f66dde2bd76de089188ef3ab417b0c16e5c5bf025
 Section: graphics
 Priority: optional
 Homepage: http://www.digikam.org
@@ -169,16 +169,16 @@ Description: digital photo management application for KDE
 
 Package: digikam-data
 Source: digikam
-Version: 4:9.0.0-2~bpo13+1
+Version: 4:9.1.0-1~bpo13+1
 Architecture: all
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Installed-Size: 62626
+Installed-Size: 68074
 Depends: opencv-data
-Filename: ./digikam-data_9.0.0-2~bpo13+1_all.deb
-Size: 17058648
-MD5sum: aaba663dc44c04d81cf8bf1eb366ba28
-SHA1: 225bf649c1a843b47be91b62c044fb6c77c868f5
-SHA256: 29d67f6f541d9059614c9f36c898c863b6462e27b822fff94f700bae85df9955
+Filename: ./digikam-data_9.1.0-1~bpo13+1_all.deb
+Size: 19719532
+MD5sum: bfa68202ff814984b85e7b0f91583ba2
+SHA1: 5dd9a3e6be0d14906b0cbd7ffd2430478bfc1d84
+SHA256: d60c4522eef435163f9a0b17ec1d1b0fdcd1da94bc2030ab906ea9f7abd1ea9d
 Section: graphics
 Priority: optional
 Multi-Arch: foreign
@@ -192,16 +192,16 @@ Description: digiKam architecture-independant data
 
 Package: digikam-private-libs
 Source: digikam
-Version: 4:9.0.0-2~bpo13+1
+Version: 4:9.1.0-1~bpo13+1
 Architecture: amd64
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Installed-Size: 55905
-Depends: kio6, libavcodec61 (>= 7:7.1.3), libavfilter10 (>= 7:7.1.3), libavformat61 (>= 7:7.1.3), libavutil59 (>= 7:7.1.3), libc6 (>= 2.38), libexiv2-28 (>= 0.28.0), libexpat1 (>= 2.0.1), libgcc-s1 (>= 12), libglib2.0-0t64 (>= 2.24.0), libgomp1 (>= 6), libgphoto2-6t64 (>= 2.5.10), libgphoto2-port12t64 (>= 2.5.10), libheif1 (>= 1.13.0), libjpeg62-turbo (>= 1.3.1), libjxl0.11 (>= 0.7.0), libkf6calendarcore6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6filemetadata3 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6notifyconfig6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.0.0), libkf6sonnetui6 (>= 6.0.0), libkf6threadweaver6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6xmlgui6 (>= 6.13.0), libksanewidgets6-6 (>= 24.05.2), liblcms2-2 (>= 2.2+git20110628), liblensfun1 (>= 0.3.4), libmagick++-7.q16-5 (>= 8:7.1.1.21), libmagickcore-7.q16-10 (>= 8:7.1.1.21), libopencv-core410 (>= 4.10.0+dfsg), libopencv-dnn410 (>= 4.10.0+dfsg), libopencv-imgcodecs410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libopencv-ml410 (>= 4.10.0+dfsg), libopencv-objdetect410 (>= 4.10.0+dfsg), libopengl0, libpng16-16t64 (>= 1.6.46), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6multimedia6 (>= 6.6.1), libqt6multimediawidgets6 (>= 6.6.1), libqt6network6 (>= 6.7.2), libqt6networkauth6 (>= 6.6.1), libqt6opengl6 (>= 6.1.2), libqt6openglwidgets6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6statemachine6 (>= 6.6.1), libqt6svg6 (>= 6.6.0), libqt6svgwidgets6 (>= 6.6.0), libqt6webenginecore6 (>= 6.6.0), libqt6webenginecore6-bin (>= 6.6.0), libqt6webenginewidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 14), libswscale8 (>= 7:7.1.3), libtiff6 (>= 4.0.3), libx11-6, libx265-215 (>= 4.1), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
-Filename: ./digikam-private-libs_9.0.0-2~bpo13+1_amd64.deb
-Size: 13758384
-MD5sum: 5eb5147c5fdbfc5b2b63599fb8d6a7c7
-SHA1: 3a4917be648b0112cc536d6e839b6b4b581b4c8f
-SHA256: 34e245eabb59cfd0544f6b97b9499307c6211129170a1cc570eeca71ef25204a
+Installed-Size: 55960
+Depends: kio6, libavcodec61 (>= 7:7.1.4), libavfilter10 (>= 7:7.1.4), libavformat61 (>= 7:7.1.4), libavutil59 (>= 7:7.1.4), libc6 (>= 2.38), libexiv2-28 (>= 0.28.0), libexpat1 (>= 2.0.1), libgcc-s1 (>= 12), libglib2.0-0t64 (>= 2.24.0), libgomp1 (>= 6), libgphoto2-6t64 (>= 2.5.10), libgphoto2-port12t64 (>= 2.5.10), libheif1 (>= 1.13.0), libjpeg62-turbo (>= 1.3.1), libjxl0.11 (>= 0.7.0), libkf6calendarcore6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6filemetadata3 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6notifyconfig6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.0.0), libkf6sonnetui6 (>= 6.0.0), libkf6threadweaver6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6xmlgui6 (>= 6.13.0), libksanewidgets6-6 (>= 24.05.2), liblcms2-2 (>= 2.2+git20110628), liblensfun1 (>= 0.3.4), libmagick++-7.q16-5 (>= 8:7.1.1.21), libmagickcore-7.q16-10 (>= 8:7.1.1.21), libopencv-core410 (>= 4.10.0+dfsg), libopencv-dnn410 (>= 4.10.0+dfsg), libopencv-imgcodecs410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libopencv-ml410 (>= 4.10.0+dfsg), libopencv-objdetect410 (>= 4.10.0+dfsg), libopengl0, libpng16-16t64 (>= 1.6.46), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6multimedia6 (>= 6.6.1), libqt6multimediawidgets6 (>= 6.6.1), libqt6network6 (>= 6.7.2), libqt6networkauth6 (>= 6.6.1), libqt6opengl6 (>= 6.1.2), libqt6openglwidgets6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6statemachine6 (>= 6.6.1), libqt6svg6 (>= 6.6.0), libqt6svgwidgets6 (>= 6.6.0), libqt6webenginecore6 (>= 6.6.0), libqt6webenginecore6-bin (>= 6.6.0), libqt6webenginewidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 14), libswscale8 (>= 7:7.1.4), libtiff6 (>= 4.0.3), libx11-6, libx265-215 (>= 4.1), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Filename: ./digikam-private-libs_9.1.0-1~bpo13+1_amd64.deb
+Size: 13784712
+MD5sum: ac68a6eaf5fa5e48d2171a54ec33e92f
+SHA1: 9d0a1265d3f701656b0d8e3052476f3ba6a035c0
+SHA256: 5b4ff80a3a1133baa7d703a402ffec4a8562b20a2e8b8eae9322f7b550cde861
 Section: libs
 Priority: optional
 Homepage: http://www.digikam.org
@@ -617,24 +617,6 @@ Description: PAR 2.0 compatible file verification and repair tool (turbo)
  on a faulty disk) the program can read the damaged files and the (possibly
  damaged) PAR2 files, and regenerate the original input files.
 
-Package: par2-turbo-dbgsym
-Source: par2cmdline-turbo
-Version: 1.4.0-4~bpo13+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Jeroen Ploemen <jcfp@debian.org>
-Installed-Size: 4694
-Depends: par2-turbo (= 1.4.0-4~bpo13+1)
-Filename: ./par2-turbo-dbgsym_1.4.0-4~bpo13+1_amd64.deb
-Size: 4518624
-MD5sum: e7d2c49542b49f7faad13df845201f8a
-SHA1: 679836384a79c8189b96231c0d6f08098923bc07
-SHA256: 96833f01dec4b434675ee8e9a97b9660f0b3b91b789b631c9578782778ed8c31
-Section: debug
-Priority: optional
-Description: debug symbols for par2-turbo
-Build-Ids: 1f62c0cc879d40b1d880f79f665bf063118a8009
-
 Package: plasma-applet-appgrid
 Version: 1.2.1-1debian13
 Architecture: amd64
@@ -729,6 +711,31 @@ Description: Symlink and sync browser profile directories into RAM
  of rsync to maintain a backup and synchronization between
  tmpfs and disk. One of the major design goals of psd is a
  completely transparent user experience.
+
+Package: python-sounddevice-doc
+Source: python-sounddevice
+Version: 0.5.5-1~bpo13+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1070
+Depends: libjs-jquery (>= 3.6.0), libjs-sphinxdoc (>= 9.0), sphinx-rtd-theme-common (>= 3.1.0+dfsg)
+Suggests: python-numpy-doc, python3-doc
+Built-Using: sphinx (= 9.1.0-4~ffwd13+u1)
+Filename: ./python-sounddevice-doc_0.5.5-1~bpo13+1_all.deb
+Size: 88892
+MD5sum: 600d64b3e51d005beb2c2285cf632128
+SHA1: 9541bb562d9704ebad23a314d9dcf13b16d62ecb
+SHA256: bf5f523c486ba7bf13f4b524210970670da8ac22d499b962ff92a8a22dda8f5c
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/spatialaudio/python-sounddevice
+Description: Play and Record Sound with Python - documentation
+ This Python module provides bindings for the PortAudio library and a few
+ convenience functions to play and record NumPy arrays containing audio
+ signals.
+ .
+ This package contains the documentation.
 
 Package: python3-betteradbsync
 Version: 0:1.4.0-2~w2d0
@@ -853,17 +860,17 @@ Description: terminal UI for monitoring your computer
 
 Package: showfoto
 Source: digikam
-Version: 4:9.0.0-2~bpo13+1
+Version: 4:9.1.0-1~bpo13+1
 Architecture: amd64
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Installed-Size: 1308
-Depends: digikam-private-libs (= 4:9.0.0-2~bpo13+1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libkf6iconwidgets6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libmagick++-7.q16-5 (>= 8:7.1.1.21), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 14), digikam-data (= 4:9.0.0-2~bpo13+1)
+Installed-Size: 1456
+Depends: digikam-private-libs (= 4:9.1.0-1~bpo13+1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libkf6iconwidgets6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libmagick++-7.q16-5 (>= 8:7.1.1.21), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 14), digikam-data (= 4:9.1.0-1~bpo13+1)
 Recommends: dolphin
-Filename: ./showfoto_9.0.0-2~bpo13+1_amd64.deb
-Size: 457836
-MD5sum: ea8b91ffe362e97016847851746807fd
-SHA1: 0951abb182f36046c333b9f8d0adbb0926e61708
-SHA256: 70c853b1d31c829939c224a8a556e58e81ae1192379511bf3bc3f8328790cb6a
+Filename: ./showfoto_9.1.0-1~bpo13+1_amd64.deb
+Size: 608344
+MD5sum: ee20246c7523cea8d3ed33acbb196d3f
+SHA1: 7973d76457727a0c4dbb0ba3bb8396dd5eb3f91e
+SHA256: 5979d54431579a47487ca2debde81e1d3ecf93b31cae77db85d848dfa46a6fcd
 Section: graphics
 Priority: optional
 Homepage: http://www.digikam.org
