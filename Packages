@@ -1,15 +1,15 @@
 Package: audacity
-Version: 3.7.7+dfsg-1~bpo13+1
+Version: 3.7.8+dfsg-1~bpo13+1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 30922
-Depends: audacity-data (= 3.7.7+dfsg-1~bpo13+1), libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libexpat1 (>= 2.0.1), libflac++11 (>= 1.5.0), libflac14 (>= 1.5.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0t64 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0t64 (>= 0.1~svn20101010), libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 14), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3t64 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1t64 (>= 3.2.8+dfsg), libwxgtk3.2-1t64 (>= 3.2.8+dfsg)
+Installed-Size: 32564
+Depends: audacity-data (= 3.7.8+dfsg-1~bpo13+1), libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libexpat1 (>= 2.0.1), libflac++11 (>= 1.5.0), libflac14 (>= 1.5.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0t64 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0t64 (>= 0.1~svn20101010), libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 14), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3t64 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1t64 (>= 3.2.8+dfsg), libwxgtk3.2-1t64 (>= 3.2.8+dfsg)
 Suggests: ladspa-plugin
-Filename: ./audacity_3.7.7+dfsg-1~bpo13+1_amd64.deb
-Size: 8306196
-MD5sum: b43f77fe57425387fd067f62aeba8b25
-SHA1: fcea60e0ca9a80eb5e6633bbb20404ac676a7fb7
-SHA256: 5095f06351d32eea45f67661309c012f37414c77e7f382f19f2cb835d469558c
+Filename: ./audacity_3.7.8+dfsg-1~bpo13+1_amd64.deb
+Size: 9968944
+MD5sum: 4b2ab24e7be3eb659eb0f10231fcb852
+SHA1: 7bb591ad182a2d38db06643cc7f98006b8029081
+SHA256: 81b222d88408887e9a1bee7ca48a7e846dc77449277532c0684e43f6bc7cb494
 Section: sound
 Priority: optional
 Homepage: https://www.audacityteam.org/
@@ -24,16 +24,16 @@ Description: fast, cross-platform audio editor
 
 Package: audacity-data
 Source: audacity
-Version: 3.7.7+dfsg-1~bpo13+1
+Version: 3.7.8+dfsg-1~bpo13+1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 16133
+Installed-Size: 16462
 Recommends: audacity
-Filename: ./audacity-data_3.7.7+dfsg-1~bpo13+1_all.deb
-Size: 2510864
-MD5sum: 523326c15dd5458b8cb84431b7b04f49
-SHA1: fbd6bd78daebae69fa98ff845729eec484bfee6f
-SHA256: b139d598724288db3354eb9f648a341dde53736d46c58a2850adfc093f609a1a
+Filename: ./audacity-data_3.7.8+dfsg-1~bpo13+1_all.deb
+Size: 2587496
+MD5sum: 5a21dba44a40b3c95e726c9bee076082
+SHA1: a335f0d0ff655efde47079858c911bd5f93b7ee9
+SHA256: ce70d45fcca5194c905a551d5a02685585b4ec1e2b176696ab9d7be5fb21f3b0
 Section: sound
 Priority: optional
 Multi-Arch: foreign
@@ -77,17 +77,16 @@ Description: system tray notifications for Thunderbird
 Original-Maintainer: Adam Borowski <kilobyte@angband.pl>
 
 Package: bleachbit
-Version: 5.0.2-1~bpo13+1
+Version: 6.0.2-1~bpo13+1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 3048
-Depends: gir1.2-gtk-3.0, gir1.2-notify-0.7, pkexec, python3-chardet, python3-gi, python3-psutil, python3-requests, python3:any
-Recommends: gir1.2-ayatanaappindicator3-0.1
-Filename: ./bleachbit_5.0.2-1~bpo13+1_all.deb
-Size: 503584
-MD5sum: a0aff074f15abce7cf173574dc3173a9
-SHA1: 880f4b83378af8b9371c84f55b58ce56b2f11255
-SHA256: c00b31334ee0c7a84b8a8ea8579f06d25c75dff73ee0e7228432d4c4f21c3fb8
+Installed-Size: 3801
+Depends: gir1.2-gtk-3.0, gir1.2-notify-0.7, gir1.2-pango-1.0, pkexec, python3-chardet, python3-gi, python3-psutil, python3-requests, python3-urllib3, python3:any
+Filename: ./bleachbit_6.0.2-1~bpo13+1_all.deb
+Size: 624140
+MD5sum: bf8d697be942e683ab51da2ff0272368
+SHA1: 67a9e12ea0ee068760180c1cccf08575d12e0b2e
+SHA256: dd2d98c4401a78516a62f0d1276ab00b4025c0c3fd7a054361be579d90cd5d94
 Section: admin
 Priority: optional
 Homepage: https://www.bleachbit.org/
@@ -714,17 +713,17 @@ Description: A modern fullscreen application launcher for KDE Plasma
  inspired by macOS Launchpad and COSMIC.
 
 Package: praat
-Version: 6.4.64+dfsg-1~bpo13+1
+Version: 6.6.30+dfsg-1~bpo13+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 180191
+Installed-Size: 184396
 Depends: file, oss-compat, libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.21.5), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 14)
 Suggests: libasound2-plugins
-Filename: ./praat_6.4.64+dfsg-1~bpo13+1_amd64.deb
-Size: 92549204
-MD5sum: 54b357e107b92a28299c54077b538b64
-SHA1: 9fd6852fd690ca0743a19f97f739208485d7af23
-SHA256: 0e7bf19f2fe47c6f35fb5aa18cb7b427770a442610d913f937e3ffc7a1e96627
+Filename: ./praat_6.6.30+dfsg-1~bpo13+1_amd64.deb
+Size: 94185688
+MD5sum: d6906e9de490353318e2d7588228707a
+SHA1: b8cd2eef14aecb8a447786671d4fe009e8c7a2f1
+SHA256: 098a371b19601fa1f0b761071747c1f999b7f60c8bfa2824dc1bbab3224ad7cf
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -737,18 +736,19 @@ Description: program for speech analysis and synthesis
  segmentation, labelling using the phonetic alphabet, and computation of
  statistics.  Praat is configurable and extensible through its own scripting
  language and has provisions for communicating with other programs.
+Commands: praat, praat_nogui
 
 Package: praat-doc
 Source: praat
-Version: 6.4.64+dfsg-1~bpo13+1
+Version: 6.6.30+dfsg-1~bpo13+1
 Architecture: all
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 26293
-Filename: ./praat-doc_6.4.64+dfsg-1~bpo13+1_all.deb
-Size: 15579648
-MD5sum: 2d612c8ba6ebbfd77e98e155bc3ee0ba
-SHA1: b9b1147d4cac4164bf35a891ef23d3628d2048e1
-SHA256: 73c7a0e238de2022c44c97faffcbda562077d921743a7b88b9cd3a4c9bc1fa01
+Installed-Size: 27521
+Filename: ./praat-doc_6.6.30+dfsg-1~bpo13+1_all.deb
+Size: 16489316
+MD5sum: 2de7a5e88981d69a1acac1c12a7a2e56
+SHA1: ab8d1f3632fea0fc8ad84b82817a4d7e31eb61eb
+SHA256: b31a955db78d0f1bcf0dce23e6cb2252e9511cfe9936d8e375d84d57fb88459f
 Section: doc
 Priority: optional
 Multi-Arch: foreign
@@ -1076,18 +1076,18 @@ Description: Complete front-end for MPlayer and mpv - translation files
  This package contains translation files.
 
 Package: strawberry
-Version: 1.2.19-1~bpo13+1
+Version: 1.2.23-1~bpo13+1
 Architecture: amd64
 Maintainer: Peter Blackman <peterb@debian.org>
-Installed-Size: 19242
+Installed-Size: 19674
 Depends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libqt6sql6-sqlite, qt6-qpa-plugins, sqlite3, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpod4t64 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu76 (>= 76.1-1~), libkdsingleapplication-qt6-1.0 (>= 1.2.0), libmtp9t64 (>= 1.1.0), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6
 Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio
 Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, qt6ct
-Filename: ./strawberry_1.2.19-1~bpo13+1_amd64.deb
-Size: 6067432
-MD5sum: a184208f6fceb19cee618c6725617285
-SHA1: 904a70cf2820e2c52103a2c5bb777c044f70f18b
-SHA256: 118745971aff44de43862bb1cae66478df0541adffd3364ab927d616d7d22e18
+Filename: ./strawberry_1.2.23-1~bpo13+1_amd64.deb
+Size: 6194148
+MD5sum: b3c37f694b77253260dddd549ed0fdc1
+SHA1: 768831cf69e85cdc9b2437f81a1d9b06edf7cbe4
+SHA256: 780223f5318a0dbdf460844e4f17fc331b746b85c153d83ef1acdfbc586001b5
 Section: sound
 Priority: optional
 Homepage: https://strawberrymusicplayer.org
