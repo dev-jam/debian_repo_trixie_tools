@@ -712,60 +712,6 @@ Description: A modern fullscreen application launcher for KDE Plasma
  A modern fullscreen application launcher for KDE Plasma,
  inspired by macOS Launchpad and COSMIC.
 
-Package: praat
-Version: 6.6.30+dfsg-1~bpo13+1
-Architecture: amd64
-Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 184396
-Depends: file, oss-compat, libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.21.5), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 14)
-Suggests: libasound2-plugins
-Filename: ./praat_6.6.30+dfsg-1~bpo13+1_amd64.deb
-Size: 94185688
-MD5sum: d6906e9de490353318e2d7588228707a
-SHA1: b8cd2eef14aecb8a447786671d4fe009e8c7a2f1
-SHA256: 098a371b19601fa1f0b761071747c1f999b7f60c8bfa2824dc1bbab3224ad7cf
-Section: science
-Priority: optional
-Homepage: https://www.praat.org
-Description: program for speech analysis and synthesis
- According to its authors, praat is "doing phonetics by computer".  Through
- its graphical interface, several speech analysis functionalities are
- available: spectrograms, cochleograms, and pitch and formant
- extraction.  Articulatory synthesis, as well as synthesis from pitch,
- formant, and intensity are also available.  Other features are
- segmentation, labelling using the phonetic alphabet, and computation of
- statistics.  Praat is configurable and extensible through its own scripting
- language and has provisions for communicating with other programs.
-Commands: praat, praat_nogui
-
-Package: praat-doc
-Source: praat
-Version: 6.6.30+dfsg-1~bpo13+1
-Architecture: all
-Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 27521
-Filename: ./praat-doc_6.6.30+dfsg-1~bpo13+1_all.deb
-Size: 16489316
-MD5sum: 2de7a5e88981d69a1acac1c12a7a2e56
-SHA1: ab8d1f3632fea0fc8ad84b82817a4d7e31eb61eb
-SHA256: b31a955db78d0f1bcf0dce23e6cb2252e9511cfe9936d8e375d84d57fb88459f
-Section: doc
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://www.praat.org
-Description: program for speech analysis and synthesis (documentation)
- According to its authors, praat is "doing phonetics by computer".  Through
- its graphical interface, several speech analysis functionalities are
- available: spectrograms, cochleograms, and pitch and formant
- extraction.  Articulatory synthesis, as well as synthesis from pitch,
- formant, and intensity are also available.  Other features are
- segmentation, labelling using the phonetic alphabet, and computation of
- statistics.  Praat is configurable and extensible through its own scripting
- language and has provisions for communicating with other programs.
- .
- This package provides the HTML form of documentation for Praat
- (essentially a local copy of the website at praat.org).
-
 Package: profile-sync-daemon
 Version: 7.00-1+bsr1
 Architecture: all
