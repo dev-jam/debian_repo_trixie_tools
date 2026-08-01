@@ -861,18 +861,18 @@ Description: Complete front-end for MPlayer and mpv - translation files
  This package contains translation files.
 
 Package: strawberry
-Version: 1.2.23-1~bpo13+1
+Version: 1.2.25-1~bpo13+1
 Architecture: amd64
 Maintainer: Peter Blackman <peterb@debian.org>
-Installed-Size: 19674
+Installed-Size: 19806
 Depends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libqt6sql6-sqlite, qt6-qpa-plugins, sqlite3, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpod4t64 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu76 (>= 76.1-1~), libkdsingleapplication-qt6-1.0 (>= 1.2.0), libmtp9t64 (>= 1.1.0), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6
 Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio
 Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, qt6ct
-Filename: ./strawberry_1.2.23-1~bpo13+1_amd64.deb
-Size: 6194148
-MD5sum: b3c37f694b77253260dddd549ed0fdc1
-SHA1: 768831cf69e85cdc9b2437f81a1d9b06edf7cbe4
-SHA256: 780223f5318a0dbdf460844e4f17fc331b746b85c153d83ef1acdfbc586001b5
+Filename: ./strawberry_1.2.25-1~bpo13+1_amd64.deb
+Size: 6221176
+MD5sum: 999209e7bc706ff17d5ae7329553bc8a
+SHA1: 697c0b008ac4d114811a81ad0366657a17a4bf1c
+SHA256: 9b4b063da493c92d6bc2e02690b46c447edd091621218a67852d703f03cf52c2
 Section: sound
 Priority: optional
 Homepage: https://strawberrymusicplayer.org
@@ -901,6 +901,36 @@ Description: audio player and music collection organizer
   - Scrobbler with support for Last.fm and ListenBrainz
   - Streaming support for Subsonic-compatible servers
   - Unofficial streaming support for Tidal and Qobuz
+
+Package: synaptic
+Version: 0.91.7+git20260407
+Architecture: amd64
+Maintainer: Michael Vogt <mvo@debian.org>
+Installed-Size: 7866
+Depends: libapt-pkg7.0 (>= 1.9.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.40.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 14), libvte-2.91-0 (>= 0.49.92), libxapian30 (>= 1.4.28~), hicolor-icon-theme, polkitd | policykit-1, pkexec | policykit-1
+Recommends: libgtk3-perl, xdg-utils
+Suggests: dwww, deborphan, apt-xapian-index, tasksel, software-properties-gtk
+Filename: ./synaptic_0.91.7+git20260407_amd64.deb
+Size: 2137800
+MD5sum: 2bfe347c5969bcaa3498bfa778506cb7
+SHA1: 9e242aef40c7d6290ebd6cf4b89aafdeae642002
+SHA256: 1543e1d5ea0c38266d686519375c585387c13aa4da5aa420a567b45749307619
+Section: admin
+Priority: optional
+Homepage: https://github.com/mvo5/synaptic/wiki
+Description: Graphical package manager
+ Synaptic is a graphical package management tool based on GTK and APT.
+ Synaptic enables you to install, upgrade and remove software packages in
+ a user-friendly way.
+ .
+ Besides these basic functions the following features are provided:
+  * Search and filter the list of available packages
+  * Perform smart system upgrades
+  * Fix broken package dependencies
+  * Edit the list of used repositories (sources.list)
+  * Download the latest changelog of a package
+  * Configure packages through the debconf system
+  * Browse all available documentation related to a package (dwww is required)
 
 Package: unoconv
 Version: 0.7-2.1~bpo13+1
