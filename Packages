@@ -443,6 +443,47 @@ Priority: optional
 Description: debug symbols for kwin-x11
 Build-Ids: 8243646caf336a7d6b06235b6aff4833cf2fba79
 
+Package: libarrow2300
+Source: apache-arrow
+Version: 23.0.1-11~ffwd13+u1
+Architecture: amd64
+Bugs: mailto:maintainers@lists.fastforward.deb822.org
+Maintainer: Fast Forward Maintainers <maintainers@lists.fastforward.deb822.org>
+Installed-Size: 30007
+Depends: libbrotli1 (>= 0.6.0), libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 7), liblz4-1 (>= 1.8.0), libmimalloc3 (>= 3.0.1+ds), libre2-11-absl20240722, libsnappy1v5 (>= 1.2.2), libstdc++6 (>= 14), libutf8proc3 (>= 2.9.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0)
+Filename: ./libarrow2300_23.0.1-11~ffwd13+u1_amd64.deb
+Size: 6423460
+MD5sum: 6d5f5dc70117f5454458ecf40b0fea6d
+SHA1: d7c7741fb5b335637c289066ba0596b0a81b74b1
+SHA256: a117665b7c46901fcd8be1057629c9d5406992c96d4aac0c8a1be61306259a08
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://arrow.apache.org/
+Description: Apache Arrow data processing library
+ Apache Arrow defines a language-independent columnar memory format
+ for flat and nested data, organized for efficient analytic operations
+ on modern hardware like CPUs and GPUs. The Arrow memory format also
+ supports zero-copy reads for lightning-fast data access without
+ serialization overhead.
+ .
+ Arrow's libraries implement the format and provide building blocks
+ for a range of use cases, including high performance analytics. Many
+ popular projects use Arrow to ship columnar data efficiently or as the
+ basis for analytic engines.
+ .
+ This package provides C++ library files.
+Original-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Original-Uploaders:
+  Steffen Moeller <moeller@debian.org>,
+  Sascha Steinbiss <satta@debian.org>,
+  Diane Trout <diane@ghic.org>,
+  Dominique Belhachemi <domibel@debian.org>,
+  Rene Engelhard <rene@debian.org>
+Original-Vcs-Browser: https://salsa.debian.org/science-team/arrow
+Original-Vcs-Git: https://salsa.debian.org/science-team/arrow.git
+Uploaders: Daniel Baumann <daniel@debian.org>
+
 Package: libkwin6
 Source: kwin
 Version: 4:6.3.6-1+bsr
@@ -532,6 +573,48 @@ Description: video player based on MPlayer/mplayer2 (client library)
  .
  This package provides a client library that can be used to embed mpv in other
  applications.
+
+Package: libparquet2300
+Source: apache-arrow
+Version: 23.0.1-11~ffwd13+u1
+Architecture: amd64
+Bugs: mailto:maintainers@lists.fastforward.deb822.org
+Maintainer: Fast Forward Maintainers <maintainers@lists.fastforward.deb822.org>
+Installed-Size: 4760
+Depends: libarrow2300 (>= 23.0.1), libc6 (>= 2.38), libgcc-s1 (>= 3.4), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libthrift-0.19.0t64 (>= 0.19.0-1~)
+Filename: ./libparquet2300_23.0.1-11~ffwd13+u1_amd64.deb
+Size: 1425964
+MD5sum: 91914451fbc17267763910c55834cb81
+SHA1: 9cb44a6588e41404967bc5b999026729e607fcc3
+SHA256: 1f792379cc1ea1b3cc04cb6ee37c066089f6e531f6339a215818788743b5122c
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://arrow.apache.org/
+Description: Apache Parquet is a columnar storage format
+ Apache Arrow defines a language-independent columnar memory format
+ for flat and nested data, organized for efficient analytic operations
+ on modern hardware like CPUs and GPUs. The Arrow memory format also
+ supports zero-copy reads for lightning-fast data access without
+ serialization overhead.
+ .
+ Arrow's libraries implement the format and provide building blocks
+ for a range of use cases, including high performance analytics. Many
+ popular projects use Arrow to ship columnar data efficiently or as the
+ basis for analytic engines.
+ .
+ This package provides C++ library files to process the Apache Parquet
+ format.
+Original-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Original-Uploaders:
+  Steffen Moeller <moeller@debian.org>,
+  Sascha Steinbiss <satta@debian.org>,
+  Diane Trout <diane@ghic.org>,
+  Dominique Belhachemi <domibel@debian.org>,
+  Rene Engelhard <rene@debian.org>
+Original-Vcs-Browser: https://salsa.debian.org/science-team/arrow
+Original-Vcs-Git: https://salsa.debian.org/science-team/arrow.git
+Uploaders: Daniel Baumann <daniel@debian.org>
 
 Package: memtest86+
 Version: 8.00-3~bpo13+1
