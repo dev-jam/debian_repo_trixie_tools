@@ -228,16 +228,16 @@ Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 
 Package: kdiskmark
-Version: 3.2.0+ds-1~bpo13+1
+Version: 3.3.0+ds-1~bpo13+1
 Architecture: amd64
 Maintainer: Dmitry Ilyich Sidorov <jonmagon@gmail.com>
-Installed-Size: 569
+Installed-Size: 687
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), fio
-Filename: ./kdiskmark_3.2.0+ds-1~bpo13+1_amd64.deb
-Size: 176736
-MD5sum: e86495eca2bccb22b26fdfc344bd02a0
-SHA1: 72fd14b09c5dd609737436a17a34bfe1d12a3b1d
-SHA256: 5987d4ef54f22c15538240f91bea2c0c731144c21693191faf7c3ae7be43aae9
+Filename: ./kdiskmark_3.3.0+ds-1~bpo13+1_amd64.deb
+Size: 219844
+MD5sum: e8e54c1bbc3206204f2066cc57684d2a
+SHA1: 5140e2742719214861903fd64819202e1e273bd4
+SHA256: 7b988c188479e778f29b921ed341b84c726689bbfcad442182b0232f17d7755a
 Section: utils
 Priority: optional
 Homepage: https://github.com/JonMagon/KDiskMark
@@ -944,18 +944,18 @@ Description: Complete front-end for MPlayer and mpv - translation files
  This package contains translation files.
 
 Package: strawberry
-Version: 1.2.25-1~bpo13+1
+Version: 1.2.26-1~bpo13+1
 Architecture: amd64
 Maintainer: Peter Blackman <peterb@debian.org>
-Installed-Size: 19806
+Installed-Size: 19802
 Depends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libqt6sql6-sqlite, qt6-qpa-plugins, sqlite3, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpod4t64 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu76 (>= 76.1-1~), libkdsingleapplication-qt6-1.0 (>= 1.2.0), libmtp9t64 (>= 1.1.0), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6
 Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio
 Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, qt6ct
-Filename: ./strawberry_1.2.25-1~bpo13+1_amd64.deb
-Size: 6221176
-MD5sum: 999209e7bc706ff17d5ae7329553bc8a
-SHA1: 697c0b008ac4d114811a81ad0366657a17a4bf1c
-SHA256: 9b4b063da493c92d6bc2e02690b46c447edd091621218a67852d703f03cf52c2
+Filename: ./strawberry_1.2.26-1~bpo13+1_amd64.deb
+Size: 6222596
+MD5sum: 7dbe8a33c916975098544431d9b209ea
+SHA1: a0bcefd3addb8b5dd28fdb7b07313d7c8cadd585
+SHA256: 14df4bb8fdc0d701c91c59f672c0fb14dc98fa1984ac9c230d349890322e1b0a
 Section: sound
 Priority: optional
 Homepage: https://strawberrymusicplayer.org
