@@ -616,6 +616,19 @@ Original-Vcs-Browser: https://salsa.debian.org/science-team/arrow
 Original-Vcs-Git: https://salsa.debian.org/science-team/arrow.git
 Uploaders: Daniel Baumann <daniel@debian.org>
 
+Package: lindiskinfo
+Version: 1.0.4-2
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./lindiskinfo_1.0.4-2_amd64.deb
+Size: 11348168
+MD5sum: 4d2b506fd7294b281d5817771910cde2
+SHA1: 04609fbc3e37de0679938d7d4a03f16f12abeb5f
+SHA256: 304be7d84736f1878af15af64bad664f15cc5a1b471a32d68fc03d7195fd9661
+Section: utils
+Priority: optional
+Description: Qt-based S.M.A.R.T. and NVMe health monitor for Linux
+
 Package: memtest86+
 Version: 8.00-3~bpo13+1
 Architecture: amd64
