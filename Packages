@@ -262,6 +262,25 @@ Homepage: https://github.com/fastfetch-cli/fastfetch
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 
+Package: gprename
+Version: 20210415-1+bsr1
+Architecture: all
+Maintainer: Thiago Pezzo <pezzo@protonmail.com>
+Installed-Size: 213
+Depends: libglib-perl, libgtk3-perl, libintl-perl, liblocale-gettext-perl, libpango-perl, perl:any
+Filename: ./gprename_20210415-1+bsr1_all.deb
+Size: 47536
+MD5sum: 94384d54c98bb38721e87639fc67c05e
+SHA1: 6ef0b13411b9f1180eb451e7110a1f502be4e4b5
+SHA256: ffb97a874f93ab6e701f8857d53457cfbcbfd167f231831edd97898a48400bbf
+Section: utils
+Priority: optional
+Homepage: http://gprename.sourceforge.net
+Description: complete batch renamer for Linux
+ GPRename is a complete batch renamer for files and directories.
+ It can easily replace, remove, insert, delete, and number
+ consecutively files and directories using a graphical interface (GUI).
+
 Package: kdiskmark
 Version: 3.3.0+ds-1~bpo13+1
 Architecture: amd64
