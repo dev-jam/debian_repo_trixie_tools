@@ -874,17 +874,16 @@ Description: feature-rich screen recorder that supports X11 and OpenGL - GLInjec
  This package contains the GLInject library.
 
 Package: smplayer
-Version: 25.6.0+ds-1~bpo13+1
+Version: 26.8.29-0.1mx25~bpo13+1
 Architecture: amd64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 5134
-Depends: mpv | mplayer, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5t64 (>= 5.14.1), libqt5qml5 (>= 5.0.2), libqt5widgets5t64 (>= 5.15.1), libqt5xml5t64 (>= 5.0.2), libstdc++6 (>= 14), libx11-6, zlib1g (>= 1:1.1.4)
-Recommends: smplayer-themes, smplayer-l10n
-Filename: ./smplayer_25.6.0+ds-1~bpo13+1_amd64.deb
-Size: 2106976
-MD5sum: c5730cb7f543baca1ba64b8c0a7271ec
-SHA1: 658c9ab9c5a95b2894afd6ed5eb5fce53afcc2b4
-SHA256: 24bbc1ff3129c913b8669b17b817886a65b30a964c27f27074f775a30583df92
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 5173
+Depends: mpv | mplayer, smplayer-l10n, smplayer-themes, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5t64 (>= 5.14.1), libqt5qml5 (>= 5.0.2), libqt5widgets5t64 (>= 5.15.1), libqt5xml5t64 (>= 5.0.2), libstdc++6 (>= 14), libx11-6, zlib1g (>= 1:1.1.4)
+Filename: ./smplayer_26.8.29-0.1mx25~bpo13+1_amd64.deb
+Size: 2120836
+MD5sum: e2318f8e93982ea1db4f440e29c9e421
+SHA1: c7e1a700310915658f3519f9ccbe10c09f3d9b2b
+SHA256: b359a398a97072b6a9a7898aad3d31b433213d2a47eb75b46540081f75a6d7cc
 Section: video
 Priority: optional
 Homepage: https://smplayer.sourceforge.net/
@@ -897,21 +896,22 @@ Description: Complete front-end for MPlayer and mpv
  worry, when you open that movie again it will resume at the same
  point you left it, and with the same settings: audio track,
  subtitles, volume...
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
 Package: smplayer-l10n
 Source: smplayer
-Version: 25.6.0+ds-1~bpo13+1
+Version: 26.8.29-0.1mx25~bpo13+1
 Architecture: all
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 11225
-Depends: smplayer (>= 25.6.0+ds-1~bpo13+1)
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 11344
+Depends: smplayer (>= 26.8.29-0.1mx25~bpo13+1)
 Breaks: smplayer-translations (<< 14.3.0)
 Replaces: smplayer-translations (<< 14.3.0)
-Filename: ./smplayer-l10n_25.6.0+ds-1~bpo13+1_all.deb
-Size: 1369320
-MD5sum: 5db88dca34311ccf4277d4f794ae17ee
-SHA1: f7dad4cd15009a3faf6c7058550af6afe6c939e8
-SHA256: dac4513d7a475372bebbdc09327f7fb2e04f9464d3f4ee741036204f74d40c7e
+Filename: ./smplayer-l10n_26.8.29-0.1mx25~bpo13+1_all.deb
+Size: 1380784
+MD5sum: f865a5cae3b6b96550519290a21d9ba7
+SHA1: a0ab55069003ab944148c8daa57039670a5989e9
+SHA256: dee7a5bf74ad9642410a274325d74a86aedf34d9d514576803ed5b48cacd26b2
 Section: localization
 Priority: optional
 Homepage: https://smplayer.sourceforge.net/
@@ -926,20 +926,21 @@ Description: Complete front-end for MPlayer and mpv - translation files
  subtitles, volume...
  .
  This package contains translation files.
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
 Package: strawberry
-Version: 1.2.26-1~bpo13+1
+Version: 1.2.30-1~bpo13+1
 Architecture: amd64
 Maintainer: Peter Blackman <peterb@debian.org>
-Installed-Size: 19802
-Depends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libqt6sql6-sqlite, qt6-qpa-plugins, sqlite3, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpod4t64 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu76 (>= 76.1-1~), libkdsingleapplication-qt6-1.0 (>= 1.2.0), libmtp9t64 (>= 1.1.0), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6
+Installed-Size: 20103
+Depends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libqt6sql6-sqlite, qt6-qpa-plugins, sqlite3, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpod4t64 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu76 (>= 76.1-1~), libkdsingleapplication-qt6-1.0 (>= 1.2.0), libmtp9t64 (>= 1.1.0), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libsqlite3-0 (>= 3.6.11), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6
 Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio
 Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, qt6ct
-Filename: ./strawberry_1.2.26-1~bpo13+1_amd64.deb
-Size: 6222596
-MD5sum: 7dbe8a33c916975098544431d9b209ea
-SHA1: a0bcefd3addb8b5dd28fdb7b07313d7c8cadd585
-SHA256: 14df4bb8fdc0d701c91c59f672c0fb14dc98fa1984ac9c230d349890322e1b0a
+Filename: ./strawberry_1.2.30-1~bpo13+1_amd64.deb
+Size: 6259724
+MD5sum: c0f030954622fe96ebbf18e0a9b373d6
+SHA1: 65917eb81893d29748ced511318f728ea8f27f8b
+SHA256: 4510216e42ff594c5bf1b45ca168925a5c85e9428afd07ec0f91b92acdd4f0f3
 Section: sound
 Priority: optional
 Homepage: https://strawberrymusicplayer.org
