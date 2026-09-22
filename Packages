@@ -247,16 +247,16 @@ Description: private libraries for digiKam plugins
  installed in a private library path.
 
 Package: fastfetch
-Version: 2.56.1
+Version: 2.68.1
 Architecture: amd64
 Maintainer: Carter Li <zhangsongcui@live.cn>
-Installed-Size: 14640
+Installed-Size: 19354
 Depends: libc6 (>= 2.35)
-Filename: ./fastfetch_2.56.1_amd64.deb
-Size: 5460274
-MD5sum: 3287046492bb365a12b18f52bf1b2450
-SHA1: e6a39a874aff749346bcb1b60a28ec791a579003
-SHA256: 5c765e77255ffe90ad89324fd11b9559ea34466594158544785446583dd0edc9
+Filename: ./fastfetch_2.68.1-1_amd64.deb
+Size: 7083552
+MD5sum: 6c43ebf9432a65fd1116f7634ed3770e
+SHA1: 81b81ef623375fc714f1f0c43843e7caa170a8c2
+SHA256: 33b046a620b4f15fb6d0f9b3ef2491e6147ae15e40d699a6eef13555634a1b28
 Section: devel
 Priority: optional
 Homepage: https://github.com/fastfetch-cli/fastfetch
@@ -264,16 +264,16 @@ Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
 
 Package: gprename
-Version: 20210415-1+bsr1
+Version: 20210415-1+bsr2
 Architecture: all
 Maintainer: Thiago Pezzo <pezzo@protonmail.com>
 Installed-Size: 213
 Depends: libglib-perl, libgtk3-perl, libintl-perl, liblocale-gettext-perl, libpango-perl, perl:any
-Filename: ./gprename_20210415-1+bsr1_all.deb
-Size: 47536
-MD5sum: 94384d54c98bb38721e87639fc67c05e
-SHA1: 6ef0b13411b9f1180eb451e7110a1f502be4e4b5
-SHA256: ffb97a874f93ab6e701f8857d53457cfbcbfd167f231831edd97898a48400bbf
+Filename: ./gprename_20210415-1+bsr2_all.deb
+Size: 47532
+MD5sum: 1d1a52900c416dcb63fa98c8de640280
+SHA1: 49786bbc914dde03b4a51603cdae4c10eeb7ac57
+SHA256: fd9eb0d33f3f9faa16df5f08adbf38d01f7b9c57db0c6d14e3b1168f779c8ca7
 Section: utils
 Priority: optional
 Homepage: http://gprename.sourceforge.net
