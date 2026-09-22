@@ -788,16 +788,16 @@ Description: image viewer/editor for KDE
  functions.
 
 Package: simplescreenrecorder
-Version: 0.4.4-7~bpo13+2
+Version: 0.4.4-7+bsr1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 3785
-Depends: libasound2t64 (>= 1.0.16), libavcodec61 (>= 7:7.1.4), libavformat61 (>= 7:7.1.4), libavutil59 (>= 7:7.1.4), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpulse0 (>= 0.99.1), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libstdc++6 (>= 14), libswscale8 (>= 7:7.1.4), libv4l-0t64 (>= 0.5.0), libx11-6 (>= 2:1.2.99.901), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), simplescreenrecorder-lib
-Filename: ./simplescreenrecorder_0.4.4-7~bpo13+2_amd64.deb
-Size: 1343680
-MD5sum: 65ba076142cd37002c15e8d7d55ad34d
-SHA1: 7c863a1e2312a543c507853d291b02a0deeb6dd1
-SHA256: 6e795df45348ff6753ff8d5b4be626e7eb13da7b9ca7439450fc964271e1637c
+Depends: libasound2t64 (>= 1.0.16), libavcodec61 (>= 7:7.1.5), libavformat61 (>= 7:7.1.5), libavutil59 (>= 7:7.1.5), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpulse0 (>= 0.99.1), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libstdc++6 (>= 14), libswscale8 (>= 7:7.1.5), libv4l-0t64 (>= 0.5.0), libx11-6 (>= 2:1.2.99.901), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), simplescreenrecorder-lib
+Filename: ./simplescreenrecorder_0.4.4-7+bsr1_amd64.deb
+Size: 1343732
+MD5sum: ba919f8033b4615755742d00fd14ca7a
+SHA1: 3ff24c7d26b768200124dab46f1d76f60f774d7f
+SHA256: d5bede1608bcf601efd17261d942c52dabc1d784635895e2ede8aa338808b9b8
 Section: video
 Priority: optional
 Homepage: https://www.maartenbaert.be/simplescreenrecorder/
@@ -826,16 +826,16 @@ Description: Feature-rich screen recorder for X11 and OpenGL
 
 Package: simplescreenrecorder-lib
 Source: simplescreenrecorder
-Version: 0.4.4-7~bpo13+2
+Version: 0.4.4-7+bsr1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 98
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglu1-mesa | libglu1, libglx0, libopengl0, libstdc++6 (>= 13.1), libx11-6, libxfixes3
-Filename: ./simplescreenrecorder-lib_0.4.4-7~bpo13+2_amd64.deb
-Size: 31576
-MD5sum: d58dc3c2d6ada7fd30882672ee45403b
-SHA1: 47754e8eae0885c4b24eabbc3aa8ae7b18e48c6e
-SHA256: a56d2e479f645178679a1ef051d1c0d349b8dcf530c26eb5b9dec68f52205479
+Filename: ./simplescreenrecorder-lib_0.4.4-7+bsr1_amd64.deb
+Size: 31492
+MD5sum: 2d17ff3d9fe2fd36da819d85b72aca97
+SHA1: 0b6748c7b73687f8c7d75e003b1b3517f86c8a7b
+SHA256: a6b59b1dc3a31d1ca5c77b3ce5422c3d5f23573f0195ad470f3dfccafa7a7b67
 Section: libs
 Priority: optional
 Multi-Arch: same
