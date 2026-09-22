@@ -665,17 +665,17 @@ Description: A modern fullscreen application launcher for KDE Plasma
  inspired by macOS Launchpad and COSMIC.
 
 Package: profile-sync-daemon
-Version: 7.00-1+bsr1
+Version: 7.04-1+bsr2
 Architecture: all
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 113
-Depends: rsync, fuse-overlayfs
+Installed-Size: 117
+Depends: libglib2.0-bin, procps, rsync, fuse-overlayfs, init-system-helpers (>= 1.66~)
 Suggests: libpam-systemd, systemd-sysv
-Filename: ./profile-sync-daemon_7.00-1+bsr1_all.deb
-Size: 21036
-MD5sum: c50d9156011412c17287e8e4eb41116b
-SHA1: 4bdbeee9494a6e30c4476cd44ced8cac44bce01b
-SHA256: 54a98f36176192c9df4920451cef0b99edf3bc2cd5210edddd6f13b7a1de3b8f
+Filename: ./profile-sync-daemon_7.04-1+bsr2_all.deb
+Size: 21756
+MD5sum: cb4cc2f49c0ca459a67732e0f2b5bce8
+SHA1: a22e70da2d9a595c41333f4a1ec29122d3abfc10
+SHA256: 7e3edaa0ba629f86e4fc1a26396619087324e60c0e37d331f561244c3cf7200d
 Section: utils
 Priority: optional
 Homepage: https://github.com/graysky2/profile-sync-daemon
@@ -688,6 +688,7 @@ Description: Symlink and sync browser profile directories into RAM
  of rsync to maintain a backup and synchronization between
  tmpfs and disk. One of the major design goals of psd is a
  completely transparent user experience.
+Commands: profile-sync-daemon, psd, psd-suspend-sync
 
 Package: s-tui
 Version: 1.5.0-1~bpo13+2
