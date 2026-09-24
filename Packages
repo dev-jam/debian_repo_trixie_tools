@@ -797,16 +797,16 @@ Description: feature-rich screen recorder that supports X11 and OpenGL - GLInjec
  This package contains the GLInject library.
 
 Package: smplayer
-Version: 26.8.29-0.1mx25
+Version: 26.8.29-0.1mx25~bpo13+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 5173
 Depends: mpv | mplayer, smplayer-l10n, smplayer-themes, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5t64 (>= 5.14.1), libqt5qml5 (>= 5.0.2), libqt5widgets5t64 (>= 5.15.1), libqt5xml5t64 (>= 5.0.2), libstdc++6 (>= 14), libx11-6, zlib1g (>= 1:1.1.4)
-Filename: ./smplayer_26.8.29-0.1mx25_amd64.deb
-Size: 2121380
-MD5sum: f01e1245e7126ad4dfc1d986468ce091
-SHA1: cda3b164580f4090f5993c04f9187a3d495a190f
-SHA256: 8eec7ef273b555721ac6de59b2ba208b5040c2dbf2060fc9ac10e625e0ac8a6b
+Filename: ./smplayer_26.8.29-0.1mx25~bpo13+1_amd64.deb
+Size: 2120836
+MD5sum: e2318f8e93982ea1db4f440e29c9e421
+SHA1: c7e1a700310915658f3519f9ccbe10c09f3d9b2b
+SHA256: b359a398a97072b6a9a7898aad3d31b433213d2a47eb75b46540081f75a6d7cc
 Section: video
 Priority: optional
 Homepage: https://smplayer.sourceforge.net/
@@ -823,18 +823,18 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: smplayer-l10n
 Source: smplayer
-Version: 26.8.29-0.1mx25
+Version: 26.8.29-0.1mx25~bpo13+1
 Architecture: all
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 11344
-Depends: smplayer (>= 26.8.29-0.1mx25)
+Depends: smplayer (>= 26.8.29-0.1mx25~bpo13+1)
 Breaks: smplayer-translations (<< 14.3.0)
 Replaces: smplayer-translations (<< 14.3.0)
-Filename: ./smplayer-l10n_26.8.29-0.1mx25_all.deb
-Size: 1380552
-MD5sum: 3c39827bf9f350518fa57f152683605b
-SHA1: 111c08c89bbc1ab29fe5c1f4a273ff420235ae5f
-SHA256: 3f58e2321ae7f92880acb828769fdd97c4b9631b969f86bf68fb0c8868722ba5
+Filename: ./smplayer-l10n_26.8.29-0.1mx25~bpo13+1_all.deb
+Size: 1380784
+MD5sum: f865a5cae3b6b96550519290a21d9ba7
+SHA1: a0ab55069003ab944148c8daa57039670a5989e9
+SHA256: dee7a5bf74ad9642410a274325d74a86aedf34d9d514576803ed5b48cacd26b2
 Section: localization
 Priority: optional
 Homepage: https://smplayer.sourceforge.net/
