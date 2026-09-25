@@ -876,17 +876,16 @@ Description: feature-rich screen recorder that supports X11 and OpenGL - GLInjec
  This package contains the GLInject library.
 
 Package: smplayer
-Version: 25.6.0+ds-1~bpo13+2
+Version: 26.8.29-0.1mx25
 Architecture: amd64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 5133
-Depends: mpv | mplayer, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5t64 (>= 5.14.1), libqt5qml5 (>= 5.0.2), libqt5widgets5t64 (>= 5.15.1), libqt5xml5t64 (>= 5.0.2), libstdc++6 (>= 14), libx11-6, zlib1g (>= 1:1.1.4)
-Recommends: smplayer-themes, smplayer-l10n
-Filename: ./smplayer_25.6.0+ds-1~bpo13+2_amd64.deb
-Size: 2108660
-MD5sum: 6a3148338632e0a4e5b38f557927cc4b
-SHA1: bd2c131cbf5e2af4eae9384a57916cc55e90f599
-SHA256: d408d3c56edaac299b391b48ea04f772dcaa7b1a5be34af3a88c5bb5e7792925
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 5173
+Depends: mpv | mplayer, smplayer-l10n, smplayer-themes, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5t64 (>= 5.14.1), libqt5qml5 (>= 5.0.2), libqt5widgets5t64 (>= 5.15.1), libqt5xml5t64 (>= 5.0.2), libstdc++6 (>= 14), libx11-6, zlib1g (>= 1:1.1.4)
+Filename: ./smplayer_26.8.29-0.1mx25_amd64.deb
+Size: 2121380
+MD5sum: f01e1245e7126ad4dfc1d986468ce091
+SHA1: cda3b164580f4090f5993c04f9187a3d495a190f
+SHA256: 8eec7ef273b555721ac6de59b2ba208b5040c2dbf2060fc9ac10e625e0ac8a6b
 Section: video
 Priority: optional
 Homepage: https://smplayer.sourceforge.net/
@@ -899,21 +898,22 @@ Description: Complete front-end for MPlayer and mpv
  worry, when you open that movie again it will resume at the same
  point you left it, and with the same settings: audio track,
  subtitles, volume...
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
 Package: smplayer-l10n
 Source: smplayer
-Version: 25.6.0+ds-1~bpo13+2
+Version: 26.8.29-0.1mx25
 Architecture: all
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 11224
-Depends: smplayer (>= 25.6.0+ds-1~bpo13+2)
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 11344
+Depends: smplayer (>= 26.8.29-0.1mx25)
 Breaks: smplayer-translations (<< 14.3.0)
 Replaces: smplayer-translations (<< 14.3.0)
-Filename: ./smplayer-l10n_25.6.0+ds-1~bpo13+2_all.deb
-Size: 1368432
-MD5sum: 1f67e4f94308f3ca61f40fe17c25f8f0
-SHA1: 20a19aaba782460020b63641145377eff52c938e
-SHA256: 996103c799b82281c9a63e140a8bd1e157e85b26feb943c30088308f28f03f53
+Filename: ./smplayer-l10n_26.8.29-0.1mx25_all.deb
+Size: 1380552
+MD5sum: 3c39827bf9f350518fa57f152683605b
+SHA1: 111c08c89bbc1ab29fe5c1f4a273ff420235ae5f
+SHA256: 3f58e2321ae7f92880acb828769fdd97c4b9631b969f86bf68fb0c8868722ba5
 Section: localization
 Priority: optional
 Homepage: https://smplayer.sourceforge.net/
@@ -928,6 +928,7 @@ Description: Complete front-end for MPlayer and mpv - translation files
  subtitles, volume...
  .
  This package contains translation files.
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
 Package: solaar
 Version: 1.1.20-2~bpo13+1
