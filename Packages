@@ -690,6 +690,85 @@ Description: Symlink and sync browser profile directories into RAM
  completely transparent user experience.
 Commands: profile-sync-daemon, psd, psd-suspend-sync
 
+Package: psensor
+Version: 1.2.1-4~bpo13+1
+Architecture: amd64
+Maintainer: xiao sheng wen <atzlinux@sina.com>
+Installed-Size: 378
+Depends: psensor-common (= 1.2.1-4~bpo13+1), dconf-gsettings-backend | gsettings-backend, libatasmart4 (>= 0.13), libayatana-appindicator3-1 (>= 0.2.92), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcurl3t64-gnutls (>= 7.16.2), libglib2.0-0t64 (>= 2.30.0), libgtk-3-0t64 (>= 3.3.16), libgtop-2.0-11 (>= 2.22.3), libjson-c5 (>= 0.15), libnotify4 (>= 0.7.0), libsensors5 (>= 1:3.5.0), libudisks2-0 (>= 2.0.0), libx11-6, libxnvctrl0
+Filename: ./psensor_1.2.1-4~bpo13+1_amd64.deb
+Size: 77308
+MD5sum: 046a5720a7ced297275de20177e7a41e
+SHA1: 84c79eb2e74445d485a8a9bedf3a2d8d4a07da4e
+SHA256: 8091d530a66d7214747b90c046ea74864dcee1b218a6b5fb01256f15d85d7056
+Section: utils
+Priority: optional
+Homepage: https://wpitchoune.net/psensor
+Description: display graphs for monitoring hardware temperature
+ Psensor is a GTK+ application for monitoring hardware sensors,
+ including temperatures and fan speeds.
+ .
+ It displays a curve for each sensor, alerts user using Desktop Notification
+ and Application Indicator when a temperature is too high.
+ .
+ It can monitor:
+  * the temperature of the motherboard and CPU sensors (using lm-sensors).
+  * the temperature of the NVidia GPUs (using XNVCtrl).
+  * the temperature of the Hard Disk Drives (using atasmart lib).
+  * the rotation speed of the fans (using lm-sensors).
+  * the sensors of a remote computer (using psensor-server).
+
+Package: psensor-common
+Source: psensor
+Version: 1.2.1-4~bpo13+1
+Architecture: all
+Maintainer: xiao sheng wen <atzlinux@sina.com>
+Installed-Size: 252
+Filename: ./psensor-common_1.2.1-4~bpo13+1_all.deb
+Size: 56980
+MD5sum: 665535e7dc786e6c40011bb686534f8b
+SHA1: d942a142ba482353b7d5e33b006c6e3cb3b172cb
+SHA256: ba163196b685e99cf30d0e1269725c2b84e4b16346e1b01f56af615470e131bc
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://wpitchoune.net/psensor
+Description: common files for Psensor and Psensor server
+ It contains:
+  * the languages packs,
+  * the README,
+  * and the FAQ.
+ This package is required by psensor and psensor-server packages.
+
+Package: psensor-server
+Source: psensor
+Version: 1.2.1-4~bpo13+1
+Architecture: amd64
+Maintainer: xiao sheng wen <atzlinux@sina.com>
+Installed-Size: 588
+Depends: libjs-jquery, psensor-common (= 1.2.1-4~bpo13+1), libatasmart4 (>= 0.13), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libgtop-2.0-11 (>= 2.22.3), libjson-c5 (>= 0.15), libmicrohttpd12t64 (>= 0.9.50), libsensors5 (>= 1:3.5.0)
+Filename: ./psensor-server_1.2.1-4~bpo13+1_amd64.deb
+Size: 107532
+MD5sum: 5d16fa99bd08bc7917b270899d812f56
+SHA1: 627372641ae3dea88436e777f2fe805b768ad3dd
+SHA256: a5869c281b097e9b68df4e409938b242423099c3e09f5b1c93cc10883de3ad29
+Section: utils
+Priority: optional
+Homepage: https://wpitchoune.net/psensor
+Description: Psensor server for monitoring hardware sensors remotely
+ Psensor server is an HTTP server providing a JSON Web service which can be
+ used by Psensor GTK+ Application to monitor remotely the hardware sensors
+ of a computer.
+ .
+ It can provide information about:
+  * the temperature of the motherboard and CPU sensors (using lm-sensors).
+  * the temperature of the NVidia GPUs (using XNVCtrl).
+  * the temperature of the Hard Disk Drives .
+  * the rotation speed of the fans (using lm-sensors).
+ .
+ It is also possible to connect to Psensor server with a browser, a simple
+ Web page is displaying the information.
+
 Package: s-tui
 Version: 1.5.0-1~bpo13+2
 Architecture: all
@@ -797,16 +876,17 @@ Description: feature-rich screen recorder that supports X11 and OpenGL - GLInjec
  This package contains the GLInject library.
 
 Package: smplayer
-Version: 26.8.29-0.1mx25~bpo13+1
+Version: 25.6.0+ds-1~bpo13+2
 Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 5173
-Depends: mpv | mplayer, smplayer-l10n, smplayer-themes, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5t64 (>= 5.14.1), libqt5qml5 (>= 5.0.2), libqt5widgets5t64 (>= 5.15.1), libqt5xml5t64 (>= 5.0.2), libstdc++6 (>= 14), libx11-6, zlib1g (>= 1:1.1.4)
-Filename: ./smplayer_26.8.29-0.1mx25~bpo13+1_amd64.deb
-Size: 2120836
-MD5sum: e2318f8e93982ea1db4f440e29c9e421
-SHA1: c7e1a700310915658f3519f9ccbe10c09f3d9b2b
-SHA256: b359a398a97072b6a9a7898aad3d31b433213d2a47eb75b46540081f75a6d7cc
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 5133
+Depends: mpv | mplayer, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5t64 (>= 5.14.1), libqt5qml5 (>= 5.0.2), libqt5widgets5t64 (>= 5.15.1), libqt5xml5t64 (>= 5.0.2), libstdc++6 (>= 14), libx11-6, zlib1g (>= 1:1.1.4)
+Recommends: smplayer-themes, smplayer-l10n
+Filename: ./smplayer_25.6.0+ds-1~bpo13+2_amd64.deb
+Size: 2108660
+MD5sum: 6a3148338632e0a4e5b38f557927cc4b
+SHA1: bd2c131cbf5e2af4eae9384a57916cc55e90f599
+SHA256: d408d3c56edaac299b391b48ea04f772dcaa7b1a5be34af3a88c5bb5e7792925
 Section: video
 Priority: optional
 Homepage: https://smplayer.sourceforge.net/
@@ -819,22 +899,21 @@ Description: Complete front-end for MPlayer and mpv
  worry, when you open that movie again it will resume at the same
  point you left it, and with the same settings: audio track,
  subtitles, volume...
-Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
 Package: smplayer-l10n
 Source: smplayer
-Version: 26.8.29-0.1mx25~bpo13+1
+Version: 25.6.0+ds-1~bpo13+2
 Architecture: all
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 11344
-Depends: smplayer (>= 26.8.29-0.1mx25~bpo13+1)
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 11224
+Depends: smplayer (>= 25.6.0+ds-1~bpo13+2)
 Breaks: smplayer-translations (<< 14.3.0)
 Replaces: smplayer-translations (<< 14.3.0)
-Filename: ./smplayer-l10n_26.8.29-0.1mx25~bpo13+1_all.deb
-Size: 1380784
-MD5sum: f865a5cae3b6b96550519290a21d9ba7
-SHA1: a0ab55069003ab944148c8daa57039670a5989e9
-SHA256: dee7a5bf74ad9642410a274325d74a86aedf34d9d514576803ed5b48cacd26b2
+Filename: ./smplayer-l10n_25.6.0+ds-1~bpo13+2_all.deb
+Size: 1368432
+MD5sum: 1f67e4f94308f3ca61f40fe17c25f8f0
+SHA1: 20a19aaba782460020b63641145377eff52c938e
+SHA256: 996103c799b82281c9a63e140a8bd1e157e85b26feb943c30088308f28f03f53
 Section: localization
 Priority: optional
 Homepage: https://smplayer.sourceforge.net/
@@ -849,7 +928,26 @@ Description: Complete front-end for MPlayer and mpv - translation files
  subtitles, volume...
  .
  This package contains translation files.
-Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+
+Package: solaar
+Version: 1.1.20-2~bpo13+1
+Architecture: all
+Maintainer: Stephen Kitt <skitt@debian.org>
+Installed-Size: 2850
+Depends: debconf (>= 0.5) | debconf-2.0, udev, passwd | adduser, gir1.2-ayatanaappindicator3-0.1, gir1.2-gtk-3.0, gir1.2-notify-0.7, python3-cairo, python3-dbus, python3-evdev, python3-gi, python3-psutil, python3-pyudev, python3-typing-extensions, python3-xlib, python3-yaml, python3:any
+Recommends: upower
+Filename: ./solaar_1.1.20-2~bpo13+1_all.deb
+Size: 511400
+MD5sum: 17309b14e1500b9716eea01c9316e145
+SHA1: 12cd19be4cf2c497773ac9e0d4c44c9635960463
+SHA256: 137ba8c69e2de9ec5b41c3bdb5c2c22b00405c156e160ee4d234cd8e74e9f5b6
+Section: misc
+Priority: optional
+Homepage: https://pwr-solaar.github.io/Solaar/
+Description: Logitech Unifying Receiver peripherals manager for Linux
+ Solaar is a Linux device manager for Logitech's Unifying Receiver wireless
+ peripherals. It is able to pair/unpair devices to the receiver, and for
+ some devices to read battery status.
 
 Package: strawberry
 Version: 1.2.30-1~bpo13+2
